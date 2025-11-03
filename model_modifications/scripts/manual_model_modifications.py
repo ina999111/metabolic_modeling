@@ -27,7 +27,7 @@ The changes:
 5. Removing MAR07629 
 '''
 
-model_v17 = load_matlab_model("C:/Users/inapa/Documents/Repertoire etudiant_IMP/Projets/Projet 16 Metabolic task list/model_Human-GEM_COBRA version 17.mat")
+model_v17 = load_matlab_model(r"C:\Users\inapa\PycharmProjects\metabolic_modeling\model_modifications\inputs\model_Human-GEM_COBRA version 17.mat")
 
 # 1. MAR06627 to be forward only
 model_v17.reactions.get_by_id('MAR06627').bounds
@@ -83,5 +83,5 @@ model_v17.remove_reactions([model_v17.reactions.get_by_id('MAR07629')])
 model_v17.reactions.get_by_id('MAR07629').reaction
 
 ## save manual in a folder where it is going to be used for the model addition script
-save_json_model(model_v17, r"C:/Users/inapa/Documents/Repertoire etudiant_IMP/Projets/Projet 16 Metabolic task list/model_modifications/versions/version_8/model_v17_with_manual_mods.json")
+save_json_model(model_v17, r"C:\Users\inapa\PycharmProjects\metabolic_modeling\model_modifications\inputs\model_v17_with_manual_mods.json")
 

@@ -528,11 +528,11 @@ def add_reactions_to_model(
 
 if __name__ == "__main__":
 
-    main_data_folder = r"C:/Users/inapa/Documents/Repertoire etudiant_IMP/Projets/Projet 16 Metabolic task list/model_modifications/versions/version_8"
+    main_data_folder = r"C:\Users\inapa\PycharmProjects\metabolic_modeling\model_modifications"
 
-    metabolites_location = os.path.join(main_data_folder, "metabolites_additions_v7.xlsx")
-    reactions_location = os.path.join(main_data_folder, "reactions_additions_v7.xlsx")
-    model_location = os.path.join(main_data_folder, "model_v17_with_manual_mods.json")
+    metabolites_location = os.path.join(main_data_folder, "inputs/metabolites_additions_v7.xlsx")
+    reactions_location = os.path.join(main_data_folder, "inputs/reactions_additions_v7.xlsx")
+    model_location = os.path.join(main_data_folder, "inputs/model_v17_with_manual_mods.json")
 
     dataframe_metabolites_to_change = pd.read_excel(metabolites_location)
     dataframe_reactions_to_change = pd.read_excel(reactions_location)
