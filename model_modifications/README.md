@@ -1,4 +1,4 @@
-# Model Modification Scripts
+# Model Modifications
 
 These are the scripts and documents necessary for doing model modifications.
 
@@ -15,14 +15,7 @@ The pipeline is as follows:
 2. Then run the `model_additions` script to add the metabolites and reactions found in **`metabolite_additions.xlsx`** and **`reaction_addition.xlsx`** respectively.  
    This script inputs the model modified in the previous step.
 
----
-
-## Outputs
-
-The outputs are:
-
-- **Modified model**  
-- **`output_log_genes`** — the reactions using each gene in the new model.  
-- **`output_log_metabolites`** — for the metabolites added, gives the other metabolites with similar formula.
-
----
+| script                        | what it does          | inputs                                                                                         | outputs                                                                                                                                                                                                   |
+| ----------------------------- | --------------------- | ---------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| manual_model_modifications.py | changes and deletions | basic human gem model (here v1.17)                                                             | model with manual modifications                                                                                                                                                                           |
+| model_additions.py            | additions             | model_with_manual_modifications.json<br>metabolites_additions.xlsx<br>reactions_additions.xlsx | output_model<br>logs:<br>\- output_log_genes: the reactions using each gene in the new model. <br>\- output_log_metabolites: for the metabolites added, gives the other metabolites with similar formula. |
