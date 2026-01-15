@@ -67908,7 +67908,7 @@
 "MAM01842[c]":1.0,
 "MAM01981[c]":-1.0
 },
-"lower_bound":0.0,
+"lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"ENSG00000109107 or ENSG00000136872 or ENSG00000149925",
 "subsystem":"Fructose and mannose metabolism",
@@ -350911,7 +350911,7 @@
 },
 "lower_bound":0,
 "upper_bound":1000,
-"gene_reaction_rule":"ENSG00000104325 or ENSG00000274296",
+"gene_reaction_rule":"ENSG00000104325 or ENSG00000242612",
 "subsystem":"dummy FA degradation reactions"
 },
 {
@@ -363091,10 +363091,6 @@
 "name":""
 },
 {
-"id":"ENSG00000151067",
-"name":""
-},
-{
 "id":"ENSG00000157388",
 "name":""
 },
@@ -363103,11 +363099,11 @@
 "name":""
 },
 {
-"id":"ENSG00000102001",
+"id":"ENSG00000151067",
 "name":""
 },
 {
-"id":"ENSG00000274296",
+"id":"ENSG00000102001",
 "name":""
 },
 {
@@ -363119,15 +363115,11 @@
 "name":""
 },
 {
-"id":"ENSG00000198838",
-"name":""
-},
-{
-"id":"ENSG00000150995",
-"name":""
-},
-{
 "id":"ENSG00000196218",
+"name":""
+},
+{
+"id":"ENSG00000198838",
 "name":""
 },
 {
@@ -363139,11 +363131,11 @@
 "name":""
 },
 {
-"id":"ENSG00000123104",
+"id":"ENSG00000150995",
 "name":""
 },
 {
-"id":"ENSG00000133193",
+"id":"ENSG00000123104",
 "name":""
 },
 {
@@ -363151,15 +363143,23 @@
 "name":""
 },
 {
-"id":"ENSG00000128340",
-"name":""
-},
-{
 "id":"ENSG00000136238",
 "name":""
 },
 {
+"id":"ENSG00000128340",
+"name":""
+},
+{
+"id":"ENSG00000133193",
+"name":""
+},
+{
 "id":"ENSG00000165168",
+"name":""
+},
+{
+"id":"ENSG00000183172",
 "name":""
 },
 {
@@ -363172,10 +363172,6 @@
 },
 {
 "id":"ENSG00000107745",
-"name":""
-},
-{
-"id":"ENSG00000183172",
 "name":""
 }
 ],

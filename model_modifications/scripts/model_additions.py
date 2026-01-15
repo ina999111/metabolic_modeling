@@ -1,6 +1,7 @@
 
 import sys
 
+
 sys.path.append(r"C:\Users\inapa\PycharmProjects\SWAMP")
 
 from src.cobrapy_fork._cobra import (
@@ -49,8 +50,6 @@ import warnings
 ## for additions, only the after_ columns are filled
 ## for removals, only the before_ columns are filled
 ## for changes, both before_ and after_ columns are filled
-
-
 
 '''
 This scripts adds metabolites and reactions to a cobra model using the following inputs:
@@ -336,9 +335,12 @@ def create_dict_stochiometry_by_reaction(
 # test works
 # create_dict_stochiometry_by_reaction(model, "glucose[m] -> 2 3-dehyrdo[m] + 4-hydro[c] + 2 ATP[c] + 2 ADP[c] + H+[c]")
 
+GPR = 'ACSL1 or ACSL3 or ACSL4 or ACSL5 or ACSL6 or ACSBG1 or ACSBG2'
+
 def find_ensemblid_from_gene_symbols(
         GPR: str
 ) -> str:
+
     """
     For strings with gene symbols, find the corresponding ENSEMBL id.
     If multiple potential matches are found, take the one with the highest score (first in list so idx = 0)
@@ -349,9 +351,6 @@ def find_ensemblid_from_gene_symbols(
     if GPR.lower() == 'no gene rule':
         return ''
 
-    if GPR.startswith('ENSG'): # if GPR already in GPR id, keep it like that
-        return(GPR)
-
     # raising a warning if the GPR rule contains something else than uppercase letters, digits, hyphens, 'or', 'and' and parentheses
     pattern_allowed_in_GPR = '((?:[A-Z]|[0-9]|\-)+|\sand\s|\sor\s|\(|\))'
     if re.sub(pattern_allowed_in_GPR, '', GPR) != '':  # if something else than the allowed characters
@@ -360,56 +359,78 @@ def find_ensemblid_from_gene_symbols(
                            f"Make sure that the GPR rule is in the right format")
         warnings.warn(warning_message)
 
-    mg = mygene.MyGeneInfo()
+    # in the GPR string, searching for ensembl ids (group 1) and gene symbols (group 2)
+    # the ensembl ids are left alone, only the gene symbols will be replaced
+    pattern = r"(?!or|OR|and|AND)\b(ENSG[0-9]{11})\b|(?!or|OR|and|AND)\b([A-Z0-9-]+)\b"
+    matches = re.findall(pattern, GPR)
 
-    pattern_gene_symbol = '([A-Z]|[1-9]|\-)+\w'  # matches upper case letters, numbers and hyphens
+    list_ensemble_ids = []
+    list_gene_symbols = []
 
-    list_gene_symbols = [match.group() for match in re.finditer(pattern_gene_symbol, GPR)]
-    gene_dict = {gene_symbol: '(no ensembl id found)' for gene_symbol in list_gene_symbols}
+    for g1, g2 in matches:
+        if g1:
+            list_ensemble_ids.append(g1)
+        elif g2:
+            list_gene_symbols.append(g2)
+
+    #if the gene symbol list is empty, just return the GPR as is, no gene symbols to replace
+    if not list_gene_symbols:
+        return(GPR)
+
+    gene_dict = dict.fromkeys(list_gene_symbols)
+    mg = mygene.MyGeneInfo() # for query of ensembl id
 
     for gene_symbol in list_gene_symbols:
 
-        output_query = mg.query(gene_symbol, scopes='symbol', fields='ensembl.gene,genomic_pos.chr', species='human')
+        gene_dict[gene_symbol] = {} # nested dict
 
-        # if no match is found, the gene symbol is skipped and the value will remain None
+        output_query = mg.query(gene_symbol, scopes='symbol', fields='ensembl.gene,genomic_pos', species='human')
+
+        # if no match is found
         if output_query['max_score'] == None:
             warning_message = f'no ENSEMBL id found for gene symbol {gene_symbol}'
             warnings.warn(warning_message)
-            continue
+            gene_dict[gene_symbol]['ensembl_ids_found'] = None
 
-        # we want to know if a gene symbol has more than 1 ENSBL ids
+        # most gene symbols have only 1 ensembl id but some have 2, with different alignements (ex. on scaffold vs chr)
         number_of_ensembl_ids = len(output_query['hits'][0]['ensembl'])
 
-        if number_of_ensembl_ids == 1:  # if only 1 ENSEMBL id is found for that gene symbol, take that ENSEMBL id
-            gene_dict[gene_symbol] = output_query['hits'][0]['ensembl']['gene']
+        # if only 1 ensembl id, attribute the ensembl id used field to that ensembl id
+        # otherwise we have to figure out which is
+        if number_of_ensembl_ids == 1:
+            gene_dict[gene_symbol]['ensembl_id_used'] = output_query['hits'][0]['ensembl']['gene']
 
-        elif number_of_ensembl_ids > 1:  # if more than 1 are found, found the correct one: the one mapped on a chromosome and not a scaffold
-            list_multiple_ensembl_ids = [output_query['hits'][0]['ensembl'][x]['gene'] for x in
-                                         range(number_of_ensembl_ids)]
-            list_multiple_genomic_pos = [output_query['hits'][0]['genomic_pos'][x]['chr'] for x in
-                                         range(
-                                             number_of_ensembl_ids)]  # this genomic pos is the chromosome number (eg. '1') or an id for the scaffold (eg. 'HSCHR1_1_CTG31')
+        elif number_of_ensembl_ids > 1:
 
-            # verify is there is a chromosome number in the genomic positions
-            list_bolean_genomic_pos_is_numeric = [list_multiple_genomic_pos[x].isnumeric() for x in
-                                                  range(len(list_multiple_genomic_pos))]
-            if True in list_bolean_genomic_pos_is_numeric:
-                for index, value in enumerate(list_bolean_genomic_pos_is_numeric):  # find the index that has a chromosome number
-                    if value == True:  # chromosome is only a number scaffold contains letters
-                        gene_dict[gene_symbol] = list_multiple_ensembl_ids[index]
-                warnings_message = f'the gene symbol {gene_symbol} has returned {number_of_ensembl_ids} ensembl ids: {list_multiple_ensembl_ids}. {gene_dict[gene_symbol]} was chosen'
-                warnings.warn(warnings_message)
+            genomic_pos_field = output_query['hits'][0]['genomic_pos']
+            if isinstance(genomic_pos_field, dict): # if genomic position field is a dictionnary, make it a list
+                genomic_pos_field = [genomic_pos_field]
 
-            elif True not in list_bolean_genomic_pos_is_numeric:  # if there is no numeric in the list of chromosome position
-                warning_message = f'none of the ensembl ids found for {gene_symbol} are mapped on a chromosome'
-                warnings.warn(warning_message)
-                continue
+            gene_dict[gene_symbol]['ensembl_ids_found'] = [genomic_pos_field[x]['ensemblgene'] for x in list(range(number_of_ensembl_ids))]
+            gene_dict[gene_symbol]['genomic_position_ensembl_ids_found'] = [genomic_pos_field[x]['chr'] for x in list(range(number_of_ensembl_ids))]
 
-    for key in gene_dict:
-        pattern_sub = key + r'\b'  # creating a regex by add the \b to the gene symbol. This allows for example FABP1 to match only FABP1 and not both FABP1 and FABP12
-        GPR = re.sub(pattern_sub, gene_dict[key], GPR)
+            # if the position is a chromosome number or a sex chromosome (X or Y), give true
+            gene_dict[gene_symbol]['boolean_genomic_pos_is_valid_chr'] = [
+                x['chr'].isnumeric() or x['chr'] in {'X', 'Y'}
+                for x in genomic_pos_field
+            ]
+
+            # determine which ensembl id should be chosen
+            for index, value in enumerate(gene_dict[gene_symbol]['boolean_genomic_pos_is_valid_chr']):
+                if value is True:
+                    gene_dict[gene_symbol]['ensembl_id_used'] = gene_dict[gene_symbol]['ensembl_ids_found'][index]
+
+    for gene_symbol in list_gene_symbols:
+        pattern_sub = gene_symbol + r'\b'  # creating a regex by adding the \b to the gene symbol. This allows for example FABP1 to match only FABP1 and not both FABP1 and FABP12
+        GPR = re.sub(pattern_sub, gene_dict[gene_symbol]['ensembl_id_used'], GPR)
 
     return GPR
+
+#test
+#find_ensemblid_from_gene_symbols('DECR1 or ENSG00000242612')
+#find_ensemblid_from_gene_symbols('DECR1 or DECR2')
+#test_gene_dict, test_GPR = find_ensemblid_from_gene_symbols('ENSG00000242612')
+#find_ensemblid_from_gene_symbols('ACSL1 or ACSL3 or ACSL4 or ACSL5 or ACSL6 or ACSBG1 or ACSBG2')
 
 def create_log_for_genes(
         cobra_model: Model,
@@ -507,7 +528,9 @@ def add_reactions_to_model(
 
         # add GPRs to reaction
         GPR_gene_symbol = dataframe_reactions_to_change.loc[idx, 'after_reaction_GPR_readable']
+        print(GPR_gene_symbol)
         GPR_ensembl = find_ensemblid_from_gene_symbols(GPR_gene_symbol)
+
         individual_reaction.gene_reaction_rule = GPR_ensembl
 
         # add the ENSEMB ids in the GPR_ensembl string to a list
@@ -546,4 +569,10 @@ if __name__ == "__main__":
     output_log_genes.to_excel(os.path.join(main_data_folder, "output/logs/output_log_genes.xlsx"))
     output_log_metabolites.to_excel(os.path.join(main_data_folder, "output/logs/output_log_metabolites.xlsx"))
 
+#test
+test_output_model = load_json_model( r"C:\Users\inapa\PycharmProjects\metabolic_modeling\model_modifications\output\output_model.json")
 
+test_output_model.reactions.get_by_id('MAR04356').reaction # should be reversible
+
+test_output_model.reactions.get_by_id('MAR90024').reaction # should exist
+test_output_model.reactions.get_by_id('MAR90024').genes # should have 4 genes

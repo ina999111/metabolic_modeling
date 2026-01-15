@@ -66914,8 +66914,8 @@
 "MAM01842[c]":1.0,
 "MAM01981[c]":-1.0
 },
-"lower_bound":0.0,
-"upper_bound":1000.0,
+"lower_bound":-1000,
+"upper_bound":1000,
 "gene_reaction_rule":"ENSG00000109107 or ENSG00000136872 or ENSG00000149925",
 "subsystem":"Fructose and mannose metabolism",
 "notes":{
@@ -359957,15 +359957,15 @@
 "name":""
 },
 {
-"id":"ENSG00000151067",
-"name":""
-},
-{
 "id":"ENSG00000157388",
 "name":""
 },
 {
 "id":"ENSG00000081248",
+"name":""
+},
+{
+"id":"ENSG00000151067",
 "name":""
 },
 {

@@ -25,11 +25,12 @@ The changes:
 4. Adding GPR to MAR11311 (was empty)
     ENSG00000081248 or ENSG00000151067 or ENSG00000157388 or ENSG00000102001
 5. Removing MAR07629 
+6. Making MAR04356 reversible
 '''
 
 model_v17 = load_matlab_model(r"C:\Users\inapa\PycharmProjects\metabolic_modeling\model_modifications\inputs\model_Human-GEM_COBRA version 17.mat")
 
-# 1. MAR06627 to be forward only
+# 1. change MAR06627 to be forward only
 model_v17.reactions.get_by_id('MAR06627').bounds
 
 model_v17.reactions.get_by_id('MAR06627').bounds = (0, 1000)
@@ -81,6 +82,13 @@ model_v17.reactions.get_by_id('MAR07629').reaction
 model_v17.remove_reactions([model_v17.reactions.get_by_id('MAR07629')])
 
 model_v17.reactions.get_by_id('MAR07629').reaction
+
+# 6. 6. Making MAR04356 reversible
+model_v17.reactions.get_by_id('MAR04356').reaction
+
+model_v17.reactions.get_by_id('MAR04356').bounds = (-1000,1000)
+
+model_v17.reactions.get_by_id('MAR04356').reaction
 
 ## save manual in a folder where it is going to be used for the model addition script
 save_json_model(model_v17, r"C:\Users\inapa\PycharmProjects\metabolic_modeling\model_modifications\inputs\model_v17_with_manual_mods.json")
