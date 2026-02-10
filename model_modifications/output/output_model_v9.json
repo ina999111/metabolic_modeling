@@ -64492,6 +64492,1084 @@
 "compartment":"c",
 "charge":-4.0,
 "formula":"C45H66N7O18P3S"
+},
+{
+"id":"MAM_dummy_001[e]",
+"name":"dummy_C20_0",
+"compartment":"e",
+"charge":0,
+"formula":"C"
+},
+{
+"id":"MAM_dummy_001[c]",
+"name":"dummy_C20_0",
+"compartment":"c",
+"charge":0,
+"formula":"C"
+},
+{
+"id":"MAM_dummy_001[m]",
+"name":"dummy_C20_0",
+"compartment":"m",
+"charge":0,
+"formula":"C"
+},
+{
+"id":"MAM_dummy_002[c]",
+"name":"dummy_acyl_C20_0",
+"compartment":"c",
+"charge":0,
+"formula":"C"
+},
+{
+"id":"MAM_dummy_002[m]",
+"name":"dummy_acyl_C20_0",
+"compartment":"m",
+"charge":0,
+"formula":"C"
+},
+{
+"id":"MAM_dummy_002[x]",
+"name":"dummy_acyl_C20_0",
+"compartment":"x",
+"charge":0,
+"formula":"C"
+},
+{
+"id":"MAM_dummy_003[c]",
+"name":"dummy_acylcarnitine_C20_0",
+"compartment":"c",
+"charge":0,
+"formula":"C"
+},
+{
+"id":"MAM_dummy_003[m]",
+"name":"dummy_acylcarnitine_C20_0",
+"compartment":"m",
+"charge":0,
+"formula":"C"
+},
+{
+"id":"MAM_dummy_003[x]",
+"name":"dummy_acylcarnitine_C20_0",
+"compartment":"x",
+"charge":0,
+"formula":"C"
+},
+{
+"id":"MAM_dummy_004[m]",
+"name":"dummy_acyl_2E_C20_0",
+"compartment":"m",
+"charge":0,
+"formula":"C"
+},
+{
+"id":"MAM_dummy_005[m]",
+"name":"dummy_acyl_3hydro_C20_0",
+"compartment":"m",
+"charge":0,
+"formula":"C"
+},
+{
+"id":"MAM_dummy_006[m]",
+"name":"dummy_acyl_3oxo_C20_0",
+"compartment":"m",
+"charge":0,
+"formula":"C"
+},
+{
+"id":"MAM_dummy_007[m]",
+"name":"dummy_acyl_C18_0",
+"compartment":"m",
+"charge":0,
+"formula":"C"
+},
+{
+"id":"MAM_dummy_008[m]",
+"name":"dummy_acyl_2E_C18_0",
+"compartment":"m",
+"charge":0,
+"formula":"C"
+},
+{
+"id":"MAM_dummy_009[m]",
+"name":"dummy_acyl_3hydro_C18_0",
+"compartment":"m",
+"charge":0,
+"formula":"C"
+},
+{
+"id":"MAM_dummy_010[m]",
+"name":"dummy_acyl_3oxo_C18_0",
+"compartment":"m",
+"charge":0,
+"formula":"C"
+},
+{
+"id":"MAM_dummy_011[m]",
+"name":"dummy_acyl_C16_0",
+"compartment":"m",
+"charge":0,
+"formula":"C"
+},
+{
+"id":"MAM_dummy_012[m]",
+"name":"dummy_acyl_2E_C16_0",
+"compartment":"m",
+"charge":0,
+"formula":"C"
+},
+{
+"id":"MAM_dummy_013[m]",
+"name":"dummy_acyl_3hydro_C16_0",
+"compartment":"m",
+"charge":0,
+"formula":"C"
+},
+{
+"id":"MAM_dummy_014[m]",
+"name":"dummy_acyl_3oxo_C16_0",
+"compartment":"m",
+"charge":0,
+"formula":"C"
+},
+{
+"id":"MAM_dummy_015[m]",
+"name":"dummy_acyl_C14_0",
+"compartment":"m",
+"charge":0,
+"formula":"C"
+},
+{
+"id":"MAM_dummy_016[m]",
+"name":"dummy_acyl_2E_C14_0",
+"compartment":"m",
+"charge":0,
+"formula":"C"
+},
+{
+"id":"MAM_dummy_017[m]",
+"name":"dummy_acyl_3hydro_C14_0",
+"compartment":"m",
+"charge":0,
+"formula":"C"
+},
+{
+"id":"MAM_dummy_018[m]",
+"name":"dummy_acyl_3oxo_C14_0",
+"compartment":"m",
+"charge":0,
+"formula":"C"
+},
+{
+"id":"MAM_dummy_019[m]",
+"name":"dummy_acyl_C12_0",
+"compartment":"m",
+"charge":0,
+"formula":"C"
+},
+{
+"id":"MAM_dummy_020[m]",
+"name":"dummy_acyl_2E_C12_0",
+"compartment":"m",
+"charge":0,
+"formula":"C"
+},
+{
+"id":"MAM_dummy_021[m]",
+"name":"dummy_acyl_3hydro_C12_0",
+"compartment":"m",
+"charge":0,
+"formula":"C"
+},
+{
+"id":"MAM_dummy_022[m]",
+"name":"dummy_acyl_3oxo_C12_0",
+"compartment":"m",
+"charge":0,
+"formula":"C"
+},
+{
+"id":"MAM_dummy_023[m]",
+"name":"dummy_acyl_C10_0",
+"compartment":"m",
+"charge":0,
+"formula":"C"
+},
+{
+"id":"MAM_dummy_024[m]",
+"name":"dummy_acyl_2E_C10_0",
+"compartment":"m",
+"charge":0,
+"formula":"C"
+},
+{
+"id":"MAM_dummy_025[m]",
+"name":"dummy_acyl_3hydro_C10_0",
+"compartment":"m",
+"charge":0,
+"formula":"C"
+},
+{
+"id":"MAM_dummy_026[m]",
+"name":"dummy_acyl_3oxo_C10_0",
+"compartment":"m",
+"charge":0,
+"formula":"C"
+},
+{
+"id":"MAM_dummy_027[c]",
+"name":"dummy_acyl_C8_0",
+"compartment":"c",
+"charge":0,
+"formula":"C"
+},
+{
+"id":"MAM_dummy_027[m]",
+"name":"dummy_acyl_C8_0",
+"compartment":"m",
+"charge":0,
+"formula":"C"
+},
+{
+"id":"MAM_dummy_028[m]",
+"name":"dummy_acyl_2E_C8_0",
+"compartment":"m",
+"charge":0,
+"formula":"C"
+},
+{
+"id":"MAM_dummy_029[m]",
+"name":"dummy_acyl_3hydro_C8_0",
+"compartment":"m",
+"charge":0,
+"formula":"C"
+},
+{
+"id":"MAM_dummy_030[m]",
+"name":"dummy_acyl_3oxo_C8_0",
+"compartment":"m",
+"charge":0,
+"formula":"C"
+},
+{
+"id":"MAM_dummy_031[m]",
+"name":"dummy_acyl_C6_0",
+"compartment":"m",
+"charge":0,
+"formula":"C"
+},
+{
+"id":"MAM_dummy_032[m]",
+"name":"dummy_acyl_2E_C6_0",
+"compartment":"m",
+"charge":0,
+"formula":"C"
+},
+{
+"id":"MAM_dummy_033[m]",
+"name":"dummy_acyl_3hydro_C6_0",
+"compartment":"m",
+"charge":0,
+"formula":"C"
+},
+{
+"id":"MAM_dummy_034[m]",
+"name":"dummy_acyl_3oxo_C6_0",
+"compartment":"m",
+"charge":0,
+"formula":"C"
+},
+{
+"id":"MAM_dummy_035[m]",
+"name":"dummy_acyl_C4_0",
+"compartment":"m",
+"charge":0,
+"formula":"C"
+},
+{
+"id":"MAM_dummy_036[m]",
+"name":"dummy_acyl_2E_C4_0",
+"compartment":"m",
+"charge":0,
+"formula":"C"
+},
+{
+"id":"MAM_dummy_037[m]",
+"name":"dummy_acyl_3hydro_C4_0",
+"compartment":"m",
+"charge":0,
+"formula":"C"
+},
+{
+"id":"MAM_dummy_038[m]",
+"name":"dummy_acyl_3oxo_C4_0",
+"compartment":"m",
+"charge":0,
+"formula":"C"
+},
+{
+"id":"MAM_dummy_039[e]",
+"name":"dummy_C24_0",
+"compartment":"e",
+"charge":0,
+"formula":"C"
+},
+{
+"id":"MAM_dummy_039[c]",
+"name":"dummy_C24_0",
+"compartment":"c",
+"charge":0,
+"formula":"C"
+},
+{
+"id":"MAM_dummy_039[x]",
+"name":"dummy_C24_0",
+"compartment":"x",
+"charge":0,
+"formula":"C"
+},
+{
+"id":"MAM_dummy_039[m]",
+"name":"dummy_C24_0",
+"compartment":"m",
+"charge":0,
+"formula":"C"
+},
+{
+"id":"MAM_dummy_040[c]",
+"name":"dummy_acyl_C24_0",
+"compartment":"c",
+"charge":0,
+"formula":"C"
+},
+{
+"id":"MAM_dummy_040[x]",
+"name":"dummy_acyl_C24_0",
+"compartment":"x",
+"charge":0,
+"formula":"C"
+},
+{
+"id":"MAM_dummy_040[m]",
+"name":"dummy_acyl_C24_0",
+"compartment":"m",
+"charge":0,
+"formula":"C"
+},
+{
+"id":"MAM_dummy_041[x]",
+"name":"dummy_acyl_2E_C24_0",
+"compartment":"x",
+"charge":0,
+"formula":"C"
+},
+{
+"id":"MAM_dummy_042[x]",
+"name":"dummy_acyl_3hydro_C24_0",
+"compartment":"x",
+"charge":0,
+"formula":"C"
+},
+{
+"id":"MAM_dummy_043[x]",
+"name":"dummy_acyl_3oxo_C24_0",
+"compartment":"x",
+"charge":0,
+"formula":"C"
+},
+{
+"id":"MAM_dummy_044[x]",
+"name":"dummy_acyl_C22_0",
+"compartment":"x",
+"charge":0,
+"formula":"C"
+},
+{
+"id":"MAM_dummy_045[x]",
+"name":"dummy_acyl_2E_C22_0",
+"compartment":"x",
+"charge":0,
+"formula":"C"
+},
+{
+"id":"MAM_dummy_046[x]",
+"name":"dummy_acyl_3hydro_C22_0",
+"compartment":"x",
+"charge":0,
+"formula":"C"
+},
+{
+"id":"MAM_dummy_047[x]",
+"name":"dummy_acyl_3oxo_C22_0",
+"compartment":"x",
+"charge":0,
+"formula":"C"
+},
+{
+"id":"MAM_dummy_048[e]",
+"name":"dummy_C20_1(9)",
+"compartment":"e",
+"charge":0,
+"formula":"C"
+},
+{
+"id":"MAM_dummy_048[c]",
+"name":"dummy_C20_1(9)",
+"compartment":"c",
+"charge":0,
+"formula":"C"
+},
+{
+"id":"MAM_dummy_048[m]",
+"name":"dummy_C20_1(9)",
+"compartment":"m",
+"charge":0,
+"formula":"C"
+},
+{
+"id":"MAM_dummy_049[c]",
+"name":"dummy_acyl_C20_1(9)",
+"compartment":"c",
+"charge":0,
+"formula":"C"
+},
+{
+"id":"MAM_dummy_049[m]",
+"name":"dummy_acyl_C20_1(9)",
+"compartment":"m",
+"charge":0,
+"formula":"C"
+},
+{
+"id":"MAM_dummy_049[x]",
+"name":"dummy_acyl_C20_1(9)",
+"compartment":"x",
+"charge":0,
+"formula":"C"
+},
+{
+"id":"MAM_dummy_050[c]",
+"name":"dummy_acylcarnitine_C20_1(9)",
+"compartment":"c",
+"charge":0,
+"formula":"C"
+},
+{
+"id":"MAM_dummy_050[m]",
+"name":"dummy_acylcarnitine_C20_1(9)",
+"compartment":"m",
+"charge":0,
+"formula":"C"
+},
+{
+"id":"MAM_dummy_050[x]",
+"name":"dummy_acylcarnitine_C20_1(9)",
+"compartment":"x",
+"charge":0,
+"formula":"C"
+},
+{
+"id":"MAM_dummy_051[m]",
+"name":"dummy_acyl_2E_C20_1(9)",
+"compartment":"m",
+"charge":0,
+"formula":"C"
+},
+{
+"id":"MAM_dummy_052[m]",
+"name":"dummy_acyl_3hydro_C20_1(9)",
+"compartment":"m",
+"charge":0,
+"formula":"C"
+},
+{
+"id":"MAM_dummy_053[m]",
+"name":"dummy_acyl_3oxo_C20_1(9)",
+"compartment":"m",
+"charge":0,
+"formula":"C"
+},
+{
+"id":"MAM_dummy_054[m]",
+"name":"dummy_acyl_C18_1(7)",
+"compartment":"m",
+"charge":0,
+"formula":"C"
+},
+{
+"id":"MAM_dummy_055[m]",
+"name":"dummy_acyl_2E_C18_1(7)",
+"compartment":"m",
+"charge":0,
+"formula":"C"
+},
+{
+"id":"MAM_dummy_056[m]",
+"name":"dummy_acyl_3hydro_C18_1(7)",
+"compartment":"m",
+"charge":0,
+"formula":"C"
+},
+{
+"id":"MAM_dummy_057[m]",
+"name":"dummy_acyl_3oxo_C18_1(7)",
+"compartment":"m",
+"charge":0,
+"formula":"C"
+},
+{
+"id":"MAM_dummy_058[m]",
+"name":"dummy_acyl_C16_1(5)",
+"compartment":"m",
+"charge":0,
+"formula":"C"
+},
+{
+"id":"MAM_dummy_059[m]",
+"name":"dummy_acyl_2E_C16_1(5)",
+"compartment":"m",
+"charge":0,
+"formula":"C"
+},
+{
+"id":"MAM_dummy_060[m]",
+"name":"dummy_acyl_3hydro_C16_1(5)",
+"compartment":"m",
+"charge":0,
+"formula":"C"
+},
+{
+"id":"MAM_dummy_061[m]",
+"name":"dummy_acyl_3oxo_C16_1(5)",
+"compartment":"m",
+"charge":0,
+"formula":"C"
+},
+{
+"id":"MAM_dummy_062[m]",
+"name":"dummy_acyl_C14_1(3)",
+"compartment":"m",
+"charge":0,
+"formula":"C"
+},
+{
+"id":"MAM_dummy_063[m]",
+"name":"dummy_acyl_2E_C14_1(3)",
+"compartment":"m",
+"charge":0,
+"formula":"C"
+},
+{
+"id":"MAM_dummy_064[m]",
+"name":"dummy_acyl_3hydro_C14_1(3)",
+"compartment":"m",
+"charge":0,
+"formula":"C"
+},
+{
+"id":"MAM_dummy_065[m]",
+"name":"dummy_acyl_3oxo_C14_1(3)",
+"compartment":"m",
+"charge":0,
+"formula":"C"
+},
+{
+"id":"MAM_dummy_066[e]",
+"name":"dummy_C24_1(13)",
+"compartment":"e",
+"charge":0,
+"formula":"C"
+},
+{
+"id":"MAM_dummy_066[c]",
+"name":"dummy_C24_1(13)",
+"compartment":"c",
+"charge":0,
+"formula":"C"
+},
+{
+"id":"MAM_dummy_067[c]",
+"name":"dummy_acyl_C24_1(13)",
+"compartment":"c",
+"charge":0,
+"formula":"C"
+},
+{
+"id":"MAM_dummy_067[x]",
+"name":"dummy_acyl_C24_1(13)",
+"compartment":"x",
+"charge":0,
+"formula":"C"
+},
+{
+"id":"MAM_dummy_067[m]",
+"name":"dummy_acyl_C24_1(13)",
+"compartment":"m",
+"charge":0,
+"formula":"C"
+},
+{
+"id":"MAM_dummy_068[x]",
+"name":"dummy_acyl_2E_C24_1(13)",
+"compartment":"x",
+"charge":0,
+"formula":"C"
+},
+{
+"id":"MAM_dummy_069[x]",
+"name":"dummy_acyl_3hydro_C24_1(13)",
+"compartment":"x",
+"charge":0,
+"formula":"C"
+},
+{
+"id":"MAM_dummy_070[x]",
+"name":"dummy_acyl_3oxo_C24_1(13)",
+"compartment":"x",
+"charge":0,
+"formula":"C"
+},
+{
+"id":"MAM_dummy_071[x]",
+"name":"dummy_acyl_C22_1(11)",
+"compartment":"x",
+"charge":0,
+"formula":"C"
+},
+{
+"id":"MAM_dummy_072[x]",
+"name":"dummy_acyl_2E_C22_1(11)",
+"compartment":"x",
+"charge":0,
+"formula":"C"
+},
+{
+"id":"MAM_dummy_073[x]",
+"name":"dummy_acyl_3hydro_C22_1(11)",
+"compartment":"x",
+"charge":0,
+"formula":"C"
+},
+{
+"id":"MAM_dummy_074[x]",
+"name":"dummy_acyl_3oxo_C22_1(11)",
+"compartment":"x",
+"charge":0,
+"formula":"C"
+},
+{
+"id":"MAM_dummy_075[e]",
+"name":"dummy_C20_2(6,9)",
+"compartment":"e",
+"charge":0,
+"formula":"C"
+},
+{
+"id":"MAM_dummy_075[c]",
+"name":"dummy_C20_2(6,9)",
+"compartment":"c",
+"charge":0,
+"formula":"C"
+},
+{
+"id":"MAM_dummy_076[c]",
+"name":"dummy_acyl_C20_2(6,9)",
+"compartment":"c",
+"charge":0,
+"formula":"C"
+},
+{
+"id":"MAM_dummy_076[m]",
+"name":"dummy_acyl_C20_2(6,9)",
+"compartment":"m",
+"charge":0,
+"formula":"C"
+},
+{
+"id":"MAM_dummy_076[x]",
+"name":"dummy_acyl_C20_2(6,9)",
+"compartment":"x",
+"charge":0,
+"formula":"C"
+},
+{
+"id":"MAM_dummy_077[c]",
+"name":"dummy_acylcarnitine_C20_2(6,9)",
+"compartment":"c",
+"charge":0,
+"formula":"C"
+},
+{
+"id":"MAM_dummy_077[m]",
+"name":"dummy_acylcarnitine_C20_2(6,9)",
+"compartment":"m",
+"charge":0,
+"formula":"C"
+},
+{
+"id":"MAM_dummy_077[x]",
+"name":"dummy_acylcarnitine_C20_2(6,9)",
+"compartment":"x",
+"charge":0,
+"formula":"C"
+},
+{
+"id":"MAM_dummy_078[m]",
+"name":"dummy_acyl_2E_C20_2(6,9)",
+"compartment":"m",
+"charge":0,
+"formula":"C"
+},
+{
+"id":"MAM_dummy_079[m]",
+"name":"dummy_acyl_3hydro_C20_2(6,9)",
+"compartment":"m",
+"charge":0,
+"formula":"C"
+},
+{
+"id":"MAM_dummy_080[m]",
+"name":"dummy_acyl_3oxo_C20_2(6,9)",
+"compartment":"m",
+"charge":0,
+"formula":"C"
+},
+{
+"id":"MAM_dummy_081[m]",
+"name":"dummy_acyl_C18_2(4,7)",
+"compartment":"m",
+"charge":0,
+"formula":"C"
+},
+{
+"id":"MAM_dummy_082[m]",
+"name":"dummy_acyl_2E_4E_C18_2(4,7)",
+"compartment":"m",
+"charge":0,
+"formula":"C"
+},
+{
+"id":"MAM_dummy_083[m]",
+"name":"dummy_acyl_3E_C18_2(4,7)",
+"compartment":"m",
+"charge":0,
+"formula":"C"
+},
+{
+"id":"MAM_dummy_084[m]",
+"name":"dummy_acyl_2E_C18_2(4,7)",
+"compartment":"m",
+"charge":0,
+"formula":"C"
+},
+{
+"id":"MAM_dummy_085[m]",
+"name":"dummy_acyl_3hydro_C18_2(4,7)",
+"compartment":"m",
+"charge":0,
+"formula":"C"
+},
+{
+"id":"MAM_dummy_086[m]",
+"name":"dummy_acyl_3oxo_C18_2(4,7)",
+"compartment":"m",
+"charge":0,
+"formula":"C"
+},
+{
+"id":"MAM_dummy_087[e]",
+"name":"dummy_C24_2(10,13)",
+"compartment":"e",
+"charge":0,
+"formula":"C"
+},
+{
+"id":"MAM_dummy_087[c]",
+"name":"dummy_C24_2(10,13)",
+"compartment":"c",
+"charge":0,
+"formula":"C"
+},
+{
+"id":"MAM_dummy_088[c]",
+"name":"dummy_acyl_C24_2(10,13)",
+"compartment":"c",
+"charge":0,
+"formula":"C"
+},
+{
+"id":"MAM_dummy_088[x]",
+"name":"dummy_acyl_C24_2(10,13)",
+"compartment":"x",
+"charge":0,
+"formula":"C"
+},
+{
+"id":"MAM_dummy_089[x]",
+"name":"dummy_acyl_2E_C24_2(10,13)",
+"compartment":"x",
+"charge":0,
+"formula":"C"
+},
+{
+"id":"MAM_dummy_090[x]",
+"name":"dummy_acyl_3hydro_C24_2(10,13)",
+"compartment":"x",
+"charge":0,
+"formula":"C"
+},
+{
+"id":"MAM_dummy_091[x]",
+"name":"dummy_acyl_3oxo_C24_2(10,13)",
+"compartment":"x",
+"charge":0,
+"formula":"C"
+},
+{
+"id":"MAM_dummy_092[x]",
+"name":"dummy_acyl_C22_2(8,11)",
+"compartment":"x",
+"charge":0,
+"formula":"C"
+},
+{
+"id":"MAM_dummy_093[x]",
+"name":"dummy_acyl_2E_C22_2(8,11)",
+"compartment":"x",
+"charge":0,
+"formula":"C"
+},
+{
+"id":"MAM_dummy_094[x]",
+"name":"dummy_acyl_3hydro_C22_2(8,11)",
+"compartment":"x",
+"charge":0,
+"formula":"C"
+},
+{
+"id":"MAM_dummy_095[x]",
+"name":"dummy_acyl_3oxo_C22_2(8,11)",
+"compartment":"x",
+"charge":0,
+"formula":"C"
+},
+{
+"id":"MAM_dummy_096[e]",
+"name":"dummy_C8_0",
+"compartment":"e",
+"charge":1,
+"formula":"C"
+},
+{
+"id":"MAM_dummy_096[c]",
+"name":"dummy_C8_0",
+"compartment":"c",
+"charge":2,
+"formula":"C"
+},
+{
+"id":"MAM90001[r]",
+"name":"Dihomo-Prostaglandin G2",
+"compartment":"r",
+"charge":0,
+"formula":"C22H36O6"
+},
+{
+"id":"MAM90002[c]",
+"name":"Dihomo-Prostaglandin H2",
+"compartment":"c",
+"charge":0,
+"formula":"C22H36O5"
+},
+{
+"id":"MAM90002[r]",
+"name":"Dihomo-Prostaglandin H2",
+"compartment":"r",
+"charge":0,
+"formula":"C22H36O5"
+},
+{
+"id":"MAM90003[r]",
+"name":"Dihomo-Prostaglandin D2",
+"compartment":"r",
+"charge":0,
+"formula":"C22H36O5"
+},
+{
+"id":"MAM90004[r]",
+"name":"Dihomo-Prostaglandin J2",
+"compartment":"r",
+"charge":0,
+"formula":"C22H34O4"
+},
+{
+"id":"MAM90005[r]",
+"name":"Dihomo-15D-Prostaglandin J2",
+"compartment":"r",
+"charge":0,
+"formula":"C22H32O3"
+},
+{
+"id":"MAM90006[c]",
+"name":"Dihomo-Prostaglandin F2a",
+"compartment":"c",
+"charge":0,
+"formula":"C22H38O5"
+},
+{
+"id":"MAM90007[c]",
+"name":"Eoxin A4",
+"compartment":"c",
+"charge":-1,
+"formula":"C20H29O3"
+},
+{
+"id":"MAM90008[c]",
+"name":"Eoxin C4",
+"compartment":"c",
+"charge":-2,
+"formula":"C30H45N3O9S"
+},
+{
+"id":"MAM90009[c]",
+"name":"Eoxin D4",
+"compartment":"c",
+"charge":-1,
+"formula":"C25H39N2O6S"
+},
+{
+"id":"MAM90010[c]",
+"name":"Eoxin E4",
+"compartment":"c",
+"charge":-1,
+"formula":"C23H36NO5S"
+},
+{
+"id":"MAM20014[c]",
+"name":"15-oxoprostaglandin E2",
+"compartment":"c",
+"charge":-1,
+"formula":"C20H29O5"
+},
+{
+"id":"MAM20015[c]",
+"name":"13,14-dihydro-15-oxo-prostaglandin E2",
+"compartment":"c",
+"charge":-1,
+"formula":"C20H31O5"
+},
+{
+"id":"MAM90011[c]",
+"name":"15-keto-PGI2",
+"compartment":"c",
+"charge":-1,
+"formula":"C20H29O5"
+},
+{
+"id":"MAM02789[r]",
+"name":"prostaglandin F2alpha",
+"compartment":"r",
+"charge":-1,
+"formula":"C20H33O5"
+},
+{
+"id":"MAM01413[s]",
+"name":"Ca2+",
+"compartment":"s",
+"charge":2,
+"formula":"Ca"
+},
+{
+"id":"MAM01413[m]",
+"name":"Ca2+",
+"compartment":"m",
+"charge":2,
+"formula":"Ca"
+},
+{
+"id":"MAM90012[c]",
+"name":"3alpha-androstanediol",
+"compartment":"c",
+"charge":0,
+"formula":"C19H32O2"
+},
+{
+"id":"MAM90013[c]",
+"name":"androsterone-glucuronide",
+"compartment":"c",
+"charge":0,
+"formula":"C25H38O8"
+},
+{
+"id":"MAM90014[c]",
+"name":"5beta-dihydrostestosterone",
+"compartment":"c",
+"charge":0,
+"formula":"C19H30O2"
+},
+{
+"id":"MAM90015[c]",
+"name":"3alpha-etiocholanediol",
+"compartment":"c",
+"charge":0,
+"formula":"C19H32O2"
+},
+{
+"id":"MAM90016[c]",
+"name":"etiochalonolone",
+"compartment":"c",
+"charge":0,
+"formula":"C19H30O2"
+},
+{
+"id":"MAM90017[c]",
+"name":"etiochalonolone-glucuronide",
+"compartment":"c",
+"charge":0,
+"formula":"C25H38O8"
+},
+{
+"id":"MAM90018[c]",
+"name":"4-methoxyestrone-sulfate",
+"compartment":"c",
+"charge":0,
+"formula":"C19H24O6S"
+},
+{
+"id":"MAM90019[c]",
+"name":"4-methoxyestrone-glucuronide",
+"compartment":"c",
+"charge":0,
+"formula":"C25H32O9"
+},
+{
+"id":"MAM90020[c]",
+"name":"5beta-dihydroprogesterone",
+"compartment":"c",
+"charge":0,
+"formula":"C21H32O2"
+},
+{
+"id":"MAM90021[c]",
+"name":"tetrahydroprogesterone",
+"compartment":"c",
+"charge":0,
+"formula":"C21H34O2"
+},
+{
+"id":"MAM90022[c]",
+"name":"pregnanediol",
+"compartment":"c",
+"charge":0,
+"formula":"C21H36O2"
+},
+{
+"id":"MAM90023[c]",
+"name":"pregnanediol-glucuronide",
+"compartment":"c",
+"charge":0,
+"formula":"C27H44O8"
 }
 ],
 "reactions":[
@@ -66914,8 +67992,8 @@
 "MAM01842[c]":1.0,
 "MAM01981[c]":-1.0
 },
-"lower_bound":-1000,
-"upper_bound":1000,
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
 "gene_reaction_rule":"ENSG00000109107 or ENSG00000136872 or ENSG00000149925",
 "subsystem":"Fructose and mannose metabolism",
 "notes":{
@@ -74268,8 +75346,8 @@
 "MAM02696[c]":-1.0,
 "MAM02819[c]":1.0
 },
-"lower_bound":0,
-"upper_bound":1000,
+"lower_bound":0.0,
+"upper_bound":1000.0,
 "gene_reaction_rule":"ENSG00000067225 or ENSG00000143627",
 "subsystem":"Pyrimidine metabolism",
 "notes":{
@@ -140678,8 +141756,8 @@
 "MAM02554[c]":1.0,
 "MAM02555[c]":-1.0
 },
-"lower_bound":-1000,
-"upper_bound":1000,
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
 "gene_reaction_rule":"ENSG00000025423 or ENSG00000086696 or ENSG00000108786 or ENSG00000132196 or ENSG00000149084 or ENSG00000198189 or ENSG00000204228",
 "subsystem":"Estrogen metabolism",
 "notes":{
@@ -348409,6 +349487,2350 @@
 "30378035"
 ]
 }
+},
+{
+"id":"MAR_dummy_001",
+"name":"passive diffusion C20_0 [e] to [c]",
+"metabolites":{
+"MAM_dummy_001[c]":1.0,
+"MAM_dummy_001[e]":-1.0
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"",
+"subsystem":"dummy FA degradation reactions"
+},
+{
+"id":"MAR_dummy_002",
+"name":"protein-related transport C20_0 [e] to [c]",
+"metabolites":{
+"MAM_dummy_001[c]":1.0,
+"MAM_dummy_001[e]":-1.0
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"ENSG00000121769 or ENSG00000135218 or ENSG00000145384 or ENSG00000163586 or ENSG00000164434 or ENSG00000164687 or ENSG00000170231 or ENSG00000170323 or ENSG00000197416 or ENSG00000205186",
+"subsystem":"dummy FA degradation reactions"
+},
+{
+"id":"MAR_dummy_003",
+"name":"activation of C20_0",
+"metabolites":{
+"MAM01334[c]":1.0,
+"MAM01371[c]":-1.0,
+"MAM01597[c]":-1.0,
+"MAM02759[c]":1.0,
+"MAM_dummy_001[c]":-1.0,
+"MAM_dummy_002[c]":1.0
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"ENSG00000151726 or ENSG00000123983 or ENSG00000068366 or ENSG00000197142 or ENSG00000164398 or ENSG00000103740 or ENSG00000130377",
+"subsystem":"dummy FA degradation reactions"
+},
+{
+"id":"MAR_dummy_004",
+"name":"transport and activation C20_0",
+"metabolites":{
+"MAM01334[c]":1.0,
+"MAM01371[c]":-1.0,
+"MAM01597[c]":-1.0,
+"MAM02759[c]":1.0,
+"MAM_dummy_001[e]":-1.0,
+"MAM_dummy_002[c]":1.0
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"ENSG00000130304 or ENSG00000140284 or ENSG00000143554 or ENSG00000167114 or ENSG00000083807 or ENSG00000113396",
+"subsystem":"dummy FA degradation reactions"
+},
+{
+"id":"MAR_dummy_005",
+"name":"carnitine shuttle from c to m C20_0 step 1",
+"metabolites":{
+"MAM01597[c]":1.0,
+"MAM02348[c]":-1.0,
+"MAM_dummy_002[c]":-1.0,
+"MAM_dummy_003[c]":1.0
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"ENSG00000110090 or ENSG00000169169 or ENSG00000205560",
+"subsystem":"dummy FA degradation reactions"
+},
+{
+"id":"MAR_dummy_006",
+"name":"carnitine shuttle from c to m C20_0 step 2",
+"metabolites":{
+"MAM_dummy_003[c]":-1.0,
+"MAM_dummy_003[m]":1.0
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"ENSG00000178537",
+"subsystem":"dummy FA degradation reactions"
+},
+{
+"id":"MAR_dummy_007",
+"name":"carnitine shuttle from c to m C20_0 step 3",
+"metabolites":{
+"MAM01597[m]":-1.0,
+"MAM02348[m]":1.0,
+"MAM_dummy_002[m]":1.0,
+"MAM_dummy_003[m]":-1.0
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"ENSG00000157184",
+"subsystem":"dummy FA degradation reactions"
+},
+{
+"id":"MAR_dummy_008",
+"name":"C20_0 beta-oxi step 1",
+"metabolites":{
+"MAM01802[m]":-1.0,
+"MAM01803[m]":1.0,
+"MAM_dummy_002[m]":-1.0,
+"MAM_dummy_004[m]":1.0
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"ENSG00000072778 or ENSG00000115361 or ENSG00000177646 or ENSG00000240303",
+"subsystem":"dummy FA degradation reactions"
+},
+{
+"id":"MAR_dummy_009",
+"name":"C20_0 beta-oxi step 2",
+"metabolites":{
+"MAM02040[m]":-1.0,
+"MAM_dummy_004[m]":-1.0,
+"MAM_dummy_005[m]":1.0
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"ENSG00000084754",
+"subsystem":"dummy FA degradation reactions"
+},
+{
+"id":"MAR_dummy_010",
+"name":"C20_0 beta-oxi step 3",
+"metabolites":{
+"MAM02039[m]":1.0,
+"MAM02552[m]":-1.0,
+"MAM02553[m]":1.0,
+"MAM_dummy_005[m]":-1.0,
+"MAM_dummy_006[m]":1.0
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"ENSG00000084754",
+"subsystem":"dummy FA degradation reactions"
+},
+{
+"id":"MAR_dummy_011",
+"name":"C20_0 beta-oxi step 4",
+"metabolites":{
+"MAM01261[m]":1.0,
+"MAM01597[m]":-1.0,
+"MAM_dummy_006[m]":-1.0,
+"MAM_dummy_007[m]":1.0
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"ENSG00000138029",
+"subsystem":"dummy FA degradation reactions"
+},
+{
+"id":"MAR_dummy_012",
+"name":"C18_0 beta-oxi step 1",
+"metabolites":{
+"MAM01802[m]":-1.0,
+"MAM01803[m]":1.0,
+"MAM_dummy_007[m]":-1.0,
+"MAM_dummy_008[m]":1.0
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"ENSG00000072778 or ENSG00000115361 or ENSG00000177646",
+"subsystem":"dummy FA degradation reactions"
+},
+{
+"id":"MAR_dummy_013",
+"name":"C18_0 beta-oxi step 2",
+"metabolites":{
+"MAM02040[m]":-1.0,
+"MAM_dummy_008[m]":-1.0,
+"MAM_dummy_009[m]":1.0
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"ENSG00000084754",
+"subsystem":"dummy FA degradation reactions"
+},
+{
+"id":"MAR_dummy_014",
+"name":"C18_0 beta-oxi step 3",
+"metabolites":{
+"MAM02039[m]":1.0,
+"MAM02552[m]":-1.0,
+"MAM02553[m]":1.0,
+"MAM_dummy_009[m]":-1.0,
+"MAM_dummy_010[m]":1.0
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"ENSG00000084754",
+"subsystem":"dummy FA degradation reactions"
+},
+{
+"id":"MAR_dummy_015",
+"name":"C18_0 beta-oxi step 4",
+"metabolites":{
+"MAM01261[m]":1.0,
+"MAM01597[m]":-1.0,
+"MAM_dummy_010[m]":-1.0,
+"MAM_dummy_011[m]":1.0
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"ENSG00000138029",
+"subsystem":"dummy FA degradation reactions"
+},
+{
+"id":"MAR_dummy_016",
+"name":"C16_0 beta-oxi step 1",
+"metabolites":{
+"MAM01802[m]":-1.0,
+"MAM01803[m]":1.0,
+"MAM_dummy_011[m]":-1.0,
+"MAM_dummy_012[m]":1.0
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"ENSG00000117054 or ENSG00000072778 or ENSG00000115361 or ENSG00000177646",
+"subsystem":"dummy FA degradation reactions"
+},
+{
+"id":"MAR_dummy_017",
+"name":"C16_0 beta-oxi step 2",
+"metabolites":{
+"MAM02040[m]":-1.0,
+"MAM_dummy_012[m]":-1.0,
+"MAM_dummy_013[m]":1.0
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"ENSG00000084754",
+"subsystem":"dummy FA degradation reactions"
+},
+{
+"id":"MAR_dummy_018",
+"name":"C16_0 beta-oxi step 3",
+"metabolites":{
+"MAM02039[m]":1.0,
+"MAM02552[m]":-1.0,
+"MAM02553[m]":1.0,
+"MAM_dummy_013[m]":-1.0,
+"MAM_dummy_014[m]":1.0
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"ENSG00000084754",
+"subsystem":"dummy FA degradation reactions"
+},
+{
+"id":"MAR_dummy_019",
+"name":"C16_0 beta-oxi step 4",
+"metabolites":{
+"MAM01261[m]":1.0,
+"MAM01597[m]":-1.0,
+"MAM_dummy_014[m]":-1.0,
+"MAM_dummy_015[m]":1.0
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"ENSG00000138029 or ENSG00000167315",
+"subsystem":"dummy FA degradation reactions"
+},
+{
+"id":"MAR_dummy_020",
+"name":"C14_0 beta-oxi step 1",
+"metabolites":{
+"MAM01802[m]":-1.0,
+"MAM01803[m]":1.0,
+"MAM_dummy_015[m]":-1.0,
+"MAM_dummy_016[m]":1.0
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"ENSG00000117054 or ENSG00000072778 or ENSG00000115361 or ENSG00000177646",
+"subsystem":"dummy FA degradation reactions"
+},
+{
+"id":"MAR_dummy_021",
+"name":"C14_0 beta-oxi step 2",
+"metabolites":{
+"MAM02040[m]":-1.0,
+"MAM_dummy_016[m]":-1.0,
+"MAM_dummy_017[m]":1.0
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"ENSG00000084754",
+"subsystem":"dummy FA degradation reactions"
+},
+{
+"id":"MAR_dummy_022",
+"name":"C14_0 beta-oxi step 3",
+"metabolites":{
+"MAM02039[m]":1.0,
+"MAM02552[m]":-1.0,
+"MAM02553[m]":1.0,
+"MAM_dummy_017[m]":-1.0,
+"MAM_dummy_018[m]":1.0
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"ENSG00000084754",
+"subsystem":"dummy FA degradation reactions"
+},
+{
+"id":"MAR_dummy_023",
+"name":"C14_0 beta-oxi step 4",
+"metabolites":{
+"MAM01261[m]":1.0,
+"MAM01597[m]":-1.0,
+"MAM_dummy_018[m]":-1.0,
+"MAM_dummy_019[m]":1.0
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"ENSG00000138029 or ENSG00000167315",
+"subsystem":"dummy FA degradation reactions"
+},
+{
+"id":"MAR_dummy_024",
+"name":"C12_0 beta-oxi step 1",
+"metabolites":{
+"MAM01802[m]":-1.0,
+"MAM01803[m]":1.0,
+"MAM_dummy_019[m]":-1.0,
+"MAM_dummy_020[m]":1.0
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"ENSG00000117054 or ENSG00000072778 or ENSG00000115361",
+"subsystem":"dummy FA degradation reactions"
+},
+{
+"id":"MAR_dummy_025",
+"name":"C12_0 beta-oxi step 2",
+"metabolites":{
+"MAM02040[m]":-1.0,
+"MAM_dummy_020[m]":-1.0,
+"MAM_dummy_021[m]":1.0
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"ENSG00000084754",
+"subsystem":"dummy FA degradation reactions"
+},
+{
+"id":"MAR_dummy_026",
+"name":"C12_0 beta-oxi step 3",
+"metabolites":{
+"MAM02039[m]":1.0,
+"MAM02552[m]":-1.0,
+"MAM02553[m]":1.0,
+"MAM_dummy_021[m]":-1.0,
+"MAM_dummy_022[m]":1.0
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"ENSG00000072506 or ENSG00000084754",
+"subsystem":"dummy FA degradation reactions"
+},
+{
+"id":"MAR_dummy_027",
+"name":"C12_0 beta-oxi step 4",
+"metabolites":{
+"MAM01261[m]":1.0,
+"MAM01597[m]":-1.0,
+"MAM_dummy_022[m]":-1.0,
+"MAM_dummy_023[m]":1.0
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"ENSG00000138029 or ENSG00000167315",
+"subsystem":"dummy FA degradation reactions"
+},
+{
+"id":"MAR_dummy_028",
+"name":"C10_0 beta-oxi step 1",
+"metabolites":{
+"MAM01802[m]":-1.0,
+"MAM01803[m]":1.0,
+"MAM_dummy_023[m]":-1.0,
+"MAM_dummy_024[m]":1.0
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"ENSG00000115361 or ENSG00000117054 or ENSG00000072778",
+"subsystem":"dummy FA degradation reactions"
+},
+{
+"id":"MAR_dummy_029",
+"name":"C10_0 beta-oxi step 2",
+"metabolites":{
+"MAM02040[m]":-1.0,
+"MAM_dummy_024[m]":-1.0,
+"MAM_dummy_025[m]":1.0
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"ENSG00000127884 or ENSG00000084754",
+"subsystem":"dummy FA degradation reactions"
+},
+{
+"id":"MAR_dummy_030",
+"name":"C10_0 beta-oxi step 3",
+"metabolites":{
+"MAM02039[m]":1.0,
+"MAM02552[m]":-1.0,
+"MAM02553[m]":1.0,
+"MAM_dummy_025[m]":-1.0,
+"MAM_dummy_026[m]":1.0
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"ENSG00000072506 or ENSG00000084754",
+"subsystem":"dummy FA degradation reactions"
+},
+{
+"id":"MAR_dummy_031",
+"name":"C10_0 beta-oxi step 4",
+"metabolites":{
+"MAM01261[m]":1.0,
+"MAM01597[m]":-1.0,
+"MAM_dummy_026[m]":-1.0,
+"MAM_dummy_027[m]":1.0
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"ENSG00000138029 or ENSG00000167315",
+"subsystem":"dummy FA degradation reactions"
+},
+{
+"id":"MAR_dummy_032",
+"name":"C8_0 beta-oxi step 1",
+"metabolites":{
+"MAM01802[m]":-1.0,
+"MAM01803[m]":1.0,
+"MAM_dummy_027[m]":-1.0,
+"MAM_dummy_028[m]":1.0
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"ENSG00000117054 or ENSG00000196177 or ENSG00000115361",
+"subsystem":"dummy FA degradation reactions"
+},
+{
+"id":"MAR_dummy_033",
+"name":"C8_0 beta-oxi step 2",
+"metabolites":{
+"MAM02040[m]":-1.0,
+"MAM_dummy_028[m]":-1.0,
+"MAM_dummy_029[m]":1.0
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"ENSG00000127884 or ENSG00000084754",
+"subsystem":"dummy FA degradation reactions"
+},
+{
+"id":"MAR_dummy_034",
+"name":"C8_0 beta-oxi step 3",
+"metabolites":{
+"MAM02039[m]":1.0,
+"MAM02552[m]":-1.0,
+"MAM02553[m]":1.0,
+"MAM_dummy_029[m]":-1.0,
+"MAM_dummy_030[m]":1.0
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"ENSG00000072506",
+"subsystem":"dummy FA degradation reactions"
+},
+{
+"id":"MAR_dummy_035",
+"name":"C8_0 beta-oxi step 4",
+"metabolites":{
+"MAM01261[m]":1.0,
+"MAM01597[m]":-1.0,
+"MAM_dummy_030[m]":-1.0,
+"MAM_dummy_031[m]":1.0
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"ENSG00000138029 or ENSG00000167315",
+"subsystem":"dummy FA degradation reactions"
+},
+{
+"id":"MAR_dummy_036",
+"name":"C6_0 beta-oxi step 1",
+"metabolites":{
+"MAM01802[m]":-1.0,
+"MAM01803[m]":1.0,
+"MAM_dummy_031[m]":-1.0,
+"MAM_dummy_032[m]":1.0
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"ENSG00000117054 or ENSG00000122971 or ENSG00000196177 or ENSG00000115361",
+"subsystem":"dummy FA degradation reactions"
+},
+{
+"id":"MAR_dummy_037",
+"name":"C6_0 beta-oxi step 2",
+"metabolites":{
+"MAM02040[m]":-1.0,
+"MAM_dummy_032[m]":-1.0,
+"MAM_dummy_033[m]":1.0
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"ENSG00000127884",
+"subsystem":"dummy FA degradation reactions"
+},
+{
+"id":"MAR_dummy_038",
+"name":"C6_0 beta-oxi step 3",
+"metabolites":{
+"MAM02039[m]":1.0,
+"MAM02552[m]":-1.0,
+"MAM02553[m]":1.0,
+"MAM_dummy_033[m]":-1.0,
+"MAM_dummy_034[m]":1.0
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"ENSG00000072506 or ENSG00000138796",
+"subsystem":"dummy FA degradation reactions"
+},
+{
+"id":"MAR_dummy_039",
+"name":"C6_0 beta-oxi step 4",
+"metabolites":{
+"MAM01261[m]":1.0,
+"MAM01597[m]":-1.0,
+"MAM_dummy_034[m]":-1.0,
+"MAM_dummy_035[m]":1.0
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"ENSG00000138029 or ENSG00000167315",
+"subsystem":"dummy FA degradation reactions"
+},
+{
+"id":"MAR_dummy_040",
+"name":"C4_0 beta-oxi step 1",
+"metabolites":{
+"MAM01802[m]":-1.0,
+"MAM01803[m]":1.0,
+"MAM_dummy_035[m]":-1.0,
+"MAM_dummy_036[m]":1.0
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"ENSG00000122971 or ENSG00000196177",
+"subsystem":"dummy FA degradation reactions"
+},
+{
+"id":"MAR_dummy_041",
+"name":"C4_0 beta-oxi step 2",
+"metabolites":{
+"MAM02040[m]":-1.0,
+"MAM_dummy_036[m]":-1.0,
+"MAM_dummy_037[m]":1.0
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"ENSG00000127884",
+"subsystem":"dummy FA degradation reactions"
+},
+{
+"id":"MAR_dummy_042",
+"name":"C4_0 beta-oxi step 3",
+"metabolites":{
+"MAM02039[m]":1.0,
+"MAM02552[m]":-1.0,
+"MAM02553[m]":1.0,
+"MAM_dummy_037[m]":-1.0,
+"MAM_dummy_038[m]":1.0
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"ENSG00000072506 or ENSG00000138796",
+"subsystem":"dummy FA degradation reactions"
+},
+{
+"id":"MAR_dummy_043",
+"name":"C4_0 beta-oxi step 4",
+"metabolites":{
+"MAM01261[m]":2.0,
+"MAM01597[m]":-1.0,
+"MAM_dummy_038[m]":-1.0
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"ENSG00000075239",
+"subsystem":"dummy FA degradation reactions"
+},
+{
+"id":"MAR_dummy_044",
+"name":"passive diffusion C24_0 [e] to [c]",
+"metabolites":{
+"MAM_dummy_039[c]":1.0,
+"MAM_dummy_039[e]":-1.0
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"",
+"subsystem":"dummy FA degradation reactions"
+},
+{
+"id":"MAR_dummy_045",
+"name":"protein-related transport C24_0 [e] to [c]",
+"metabolites":{
+"MAM_dummy_039[c]":1.0,
+"MAM_dummy_039[e]":-1.0
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"ENSG00000121769 or ENSG00000135218 or ENSG00000145384 or ENSG00000163586 or ENSG00000164434 or ENSG00000164687 or ENSG00000170231 or ENSG00000170323 or ENSG00000197416 or ENSG00000205186",
+"subsystem":"dummy FA degradation reactions"
+},
+{
+"id":"MAR_dummy_046",
+"name":"activation of C24_0",
+"metabolites":{
+"MAM01334[c]":1.0,
+"MAM01371[c]":-1.0,
+"MAM01597[c]":-1.0,
+"MAM02759[c]":1.0,
+"MAM_dummy_039[c]":-1.0,
+"MAM_dummy_040[c]":1.0
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"ENSG00000103740 or ENSG00000130377",
+"subsystem":"dummy FA degradation reactions"
+},
+{
+"id":"MAR_dummy_047",
+"name":"transport and activation C24_0",
+"metabolites":{
+"MAM01334[c]":1.0,
+"MAM01371[c]":-1.0,
+"MAM01597[c]":-1.0,
+"MAM02759[c]":1.0,
+"MAM_dummy_039[e]":-1.0,
+"MAM_dummy_040[c]":1.0
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"ENSG00000130304 or ENSG00000140284 or ENSG00000143554 or ENSG00000167114 or ENSG00000083807 or ENSG00000113396",
+"subsystem":"dummy FA degradation reactions"
+},
+{
+"id":"MAR_dummy_048",
+"name":"transport C24_0 [c] to [x]",
+"metabolites":{
+"MAM_dummy_040[c]":-1.0,
+"MAM_dummy_040[x]":1.0
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"ENSG00000101986 or ENSG00000173208 or ENSG00000117528",
+"subsystem":"dummy FA degradation reactions"
+},
+{
+"id":"MAR_dummy_049",
+"name":"C24_0 beta-oxi step 1",
+"metabolites":{
+"MAM02041[x]":1.0,
+"MAM02630[x]":-1.0,
+"MAM_dummy_040[x]":-1.0,
+"MAM_dummy_041[x]":1.0
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"ENSG00000161533 or ENSG00000087008",
+"subsystem":"dummy FA degradation reactions"
+},
+{
+"id":"MAR_dummy_050",
+"name":"C24_0 beta-oxi step 2",
+"metabolites":{
+"MAM02040[x]":-1.0,
+"MAM_dummy_041[x]":-1.0,
+"MAM_dummy_042[x]":1.0
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"ENSG00000133835",
+"subsystem":"dummy FA degradation reactions"
+},
+{
+"id":"MAR_dummy_051",
+"name":"C24_0 beta-oxi step 3",
+"metabolites":{
+"MAM02039[x]":1.0,
+"MAM02552[x]":-1.0,
+"MAM02553[x]":1.0,
+"MAM_dummy_042[x]":-1.0,
+"MAM_dummy_043[x]":1.0
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"ENSG00000133835",
+"subsystem":"dummy FA degradation reactions"
+},
+{
+"id":"MAR_dummy_052",
+"name":"C24_0 beta-oxi step 4",
+"metabolites":{
+"MAM01261[x]":1.0,
+"MAM01597[x]":-1.0,
+"MAM_dummy_043[x]":-1.0,
+"MAM_dummy_044[x]":1.0
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"ENSG00000060971",
+"subsystem":"dummy FA degradation reactions"
+},
+{
+"id":"MAR_dummy_053",
+"name":"C22_0 beta-oxi step 1",
+"metabolites":{
+"MAM02041[x]":1.0,
+"MAM02630[x]":-1.0,
+"MAM_dummy_044[x]":-1.0,
+"MAM_dummy_045[x]":1.0
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"ENSG00000161533 or ENSG00000087008",
+"subsystem":"dummy FA degradation reactions"
+},
+{
+"id":"MAR_dummy_054",
+"name":"C22_0 beta-oxi step 2",
+"metabolites":{
+"MAM02040[x]":-1.0,
+"MAM_dummy_045[x]":-1.0,
+"MAM_dummy_046[x]":1.0
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"ENSG00000133835",
+"subsystem":"dummy FA degradation reactions"
+},
+{
+"id":"MAR_dummy_055",
+"name":"C22_0 beta-oxi step 3",
+"metabolites":{
+"MAM02039[x]":1.0,
+"MAM02552[x]":-1.0,
+"MAM02553[x]":1.0,
+"MAM_dummy_046[x]":-1.0,
+"MAM_dummy_047[x]":1.0
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"ENSG00000133835",
+"subsystem":"dummy FA degradation reactions"
+},
+{
+"id":"MAR_dummy_056",
+"name":"C22_0 beta-oxi step 4",
+"metabolites":{
+"MAM01261[x]":1.0,
+"MAM01597[x]":-1.0,
+"MAM_dummy_002[x]":1.0,
+"MAM_dummy_047[x]":-1.0
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"ENSG00000060971",
+"subsystem":"dummy FA degradation reactions"
+},
+{
+"id":"MAR_dummy_057",
+"name":"carnitine shuttle from x to m C20_0 step 1",
+"metabolites":{
+"MAM01597[x]":1.0,
+"MAM02348[x]":-1.0,
+"MAM_dummy_002[x]":-1.0,
+"MAM_dummy_003[x]":1.0
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"ENSG00000005469",
+"subsystem":"dummy FA degradation reactions"
+},
+{
+"id":"MAR_dummy_058",
+"name":"carnitine shuttle from x to m C20_0 step 2",
+"metabolites":{
+"MAM_dummy_003[m]":1.0,
+"MAM_dummy_003[x]":-1.0
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"ENSG00000178537",
+"subsystem":"dummy FA degradation reactions"
+},
+{
+"id":"MAR_dummy_059",
+"name":"passive diffusion C20_1(9) [e] to [c]",
+"metabolites":{
+"MAM_dummy_048[c]":1.0,
+"MAM_dummy_048[e]":-1.0
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"",
+"subsystem":"dummy FA degradation reactions"
+},
+{
+"id":"MAR_dummy_060",
+"name":"protein-related transport C20_1(9) [e] to [c]",
+"metabolites":{
+"MAM_dummy_048[c]":1.0,
+"MAM_dummy_048[e]":-1.0
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"ENSG00000121769 or ENSG00000135218 or ENSG00000145384 or ENSG00000163586 or ENSG00000164434 or ENSG00000164687 or ENSG00000170231 or ENSG00000170323 or ENSG00000197416 or ENSG00000205186",
+"subsystem":"dummy FA degradation reactions"
+},
+{
+"id":"MAR_dummy_061",
+"name":"activation of  C20_1(9)",
+"metabolites":{
+"MAM01334[c]":1.0,
+"MAM01371[c]":-1.0,
+"MAM01597[c]":-1.0,
+"MAM02759[c]":1.0,
+"MAM_dummy_048[c]":-1.0,
+"MAM_dummy_049[c]":1.0
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"ENSG00000151726 or ENSG00000123983 or ENSG00000068366 or ENSG00000197142 or ENSG00000164398 or ENSG00000103740 or ENSG00000130377",
+"subsystem":"dummy FA degradation reactions"
+},
+{
+"id":"MAR_dummy_062",
+"name":"transport and activation of C20_1(9)",
+"metabolites":{
+"MAM01334[c]":1.0,
+"MAM01371[c]":-1.0,
+"MAM01597[c]":-1.0,
+"MAM02759[c]":1.0,
+"MAM_dummy_048[e]":-1.0,
+"MAM_dummy_049[c]":1.0
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"ENSG00000130304 or ENSG00000140284 or ENSG00000143554 or ENSG00000167114 or ENSG00000083807 or ENSG00000113396",
+"subsystem":"dummy FA degradation reactions"
+},
+{
+"id":"MAR_dummy_063",
+"name":"carnitine shuttle from c to m C20_1(9) step 1",
+"metabolites":{
+"MAM01597[c]":1.0,
+"MAM02348[c]":-1.0,
+"MAM_dummy_049[c]":-1.0,
+"MAM_dummy_050[c]":1.0
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"ENSG00000110090 or ENSG00000169169 or ENSG00000205560",
+"subsystem":"dummy FA degradation reactions"
+},
+{
+"id":"MAR_dummy_064",
+"name":"carnitine shuttle from c to m C20_1(9) step 2",
+"metabolites":{
+"MAM_dummy_050[c]":-1.0,
+"MAM_dummy_050[m]":1.0
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"ENSG00000178537",
+"subsystem":"dummy FA degradation reactions"
+},
+{
+"id":"MAR_dummy_065",
+"name":"carnitine shuttle from c to m C20_1(9) step 3",
+"metabolites":{
+"MAM01597[m]":-1.0,
+"MAM02348[m]":1.0,
+"MAM_dummy_049[m]":1.0,
+"MAM_dummy_050[m]":-1.0
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"ENSG00000157184",
+"subsystem":"dummy FA degradation reactions"
+},
+{
+"id":"MAR_dummy_066",
+"name":"C20_1(9) beta-oxi step 1",
+"metabolites":{
+"MAM01802[m]":-1.0,
+"MAM01803[m]":1.0,
+"MAM_dummy_049[m]":-1.0,
+"MAM_dummy_051[m]":1.0
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"ENSG00000072778 or ENSG00000115361 or ENSG00000177646 or ENSG00000240303",
+"subsystem":"dummy FA degradation reactions"
+},
+{
+"id":"MAR_dummy_067",
+"name":"C20_1(9) beta-oxi step 2",
+"metabolites":{
+"MAM02040[m]":-1.0,
+"MAM_dummy_051[m]":-1.0,
+"MAM_dummy_052[m]":1.0
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"ENSG00000084754",
+"subsystem":"dummy FA degradation reactions"
+},
+{
+"id":"MAR_dummy_068",
+"name":"C20_1(9) beta-oxi step 3",
+"metabolites":{
+"MAM02039[m]":1.0,
+"MAM02552[m]":-1.0,
+"MAM02553[m]":1.0,
+"MAM_dummy_052[m]":-1.0,
+"MAM_dummy_053[m]":1.0
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"ENSG00000084754",
+"subsystem":"dummy FA degradation reactions"
+},
+{
+"id":"MAR_dummy_069",
+"name":"C20_1(9) beta-oxi step 4",
+"metabolites":{
+"MAM01261[m]":1.0,
+"MAM01597[m]":-1.0,
+"MAM_dummy_053[m]":-1.0,
+"MAM_dummy_054[m]":1.0
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"ENSG00000138029",
+"subsystem":"dummy FA degradation reactions"
+},
+{
+"id":"MAR_dummy_070",
+"name":"C18_1(7) beta-oxi step 1",
+"metabolites":{
+"MAM01802[m]":-1.0,
+"MAM01803[m]":1.0,
+"MAM_dummy_054[m]":-1.0,
+"MAM_dummy_055[m]":1.0
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"ENSG00000072778 or ENSG00000115361 or ENSG00000177646",
+"subsystem":"dummy FA degradation reactions"
+},
+{
+"id":"MAR_dummy_071",
+"name":"C18_1(7) beta-oxi step 2",
+"metabolites":{
+"MAM02040[m]":-1.0,
+"MAM_dummy_055[m]":-1.0,
+"MAM_dummy_056[m]":1.0
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"ENSG00000084754",
+"subsystem":"dummy FA degradation reactions"
+},
+{
+"id":"MAR_dummy_072",
+"name":"C18_1(7) beta-oxi step 3",
+"metabolites":{
+"MAM02039[m]":1.0,
+"MAM02552[m]":-1.0,
+"MAM02553[m]":1.0,
+"MAM_dummy_056[m]":-1.0,
+"MAM_dummy_057[m]":1.0
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"ENSG00000084754",
+"subsystem":"dummy FA degradation reactions"
+},
+{
+"id":"MAR_dummy_073",
+"name":"C18_1(7) beta-oxi step 4",
+"metabolites":{
+"MAM01261[m]":1.0,
+"MAM01597[m]":-1.0,
+"MAM_dummy_057[m]":-1.0,
+"MAM_dummy_058[m]":1.0
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"ENSG00000138029",
+"subsystem":"dummy FA degradation reactions"
+},
+{
+"id":"MAR_dummy_074",
+"name":"C16_1(5) beta-oxi step 1",
+"metabolites":{
+"MAM01802[m]":-1.0,
+"MAM01803[m]":1.0,
+"MAM_dummy_058[m]":-1.0,
+"MAM_dummy_059[m]":1.0
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"ENSG00000117054 or ENSG00000072778 or ENSG00000115361 or ENSG00000177646",
+"subsystem":"dummy FA degradation reactions"
+},
+{
+"id":"MAR_dummy_075",
+"name":"C16_1(5) beta-oxi step 2",
+"metabolites":{
+"MAM02040[m]":-1.0,
+"MAM_dummy_059[m]":-1.0,
+"MAM_dummy_060[m]":1.0
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"ENSG00000084754",
+"subsystem":"dummy FA degradation reactions"
+},
+{
+"id":"MAR_dummy_076",
+"name":"C16_1(5) beta-oxi step 3",
+"metabolites":{
+"MAM02039[m]":1.0,
+"MAM02552[m]":-1.0,
+"MAM02553[m]":1.0,
+"MAM_dummy_060[m]":-1.0,
+"MAM_dummy_061[m]":1.0
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"ENSG00000084754",
+"subsystem":"dummy FA degradation reactions"
+},
+{
+"id":"MAR_dummy_077",
+"name":"C16_1(5) beta-oxi step 4",
+"metabolites":{
+"MAM01261[m]":1.0,
+"MAM01597[m]":-1.0,
+"MAM_dummy_061[m]":-1.0,
+"MAM_dummy_062[m]":1.0
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"ENSG00000138029 or ENSG00000167315",
+"subsystem":"dummy FA degradation reactions"
+},
+{
+"id":"MAR_dummy_078",
+"name":"C14_1(3) isomerase",
+"metabolites":{
+"MAM_dummy_062[m]":-1.0,
+"MAM_dummy_063[m]":1.0
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"ENSG00000167969 or ENSG00000198721",
+"subsystem":"dummy FA degradation reactions"
+},
+{
+"id":"MAR_dummy_079",
+"name":"C14_1(3) beta-oxi step 2",
+"metabolites":{
+"MAM02040[m]":-1.0,
+"MAM_dummy_063[m]":-1.0,
+"MAM_dummy_064[m]":1.0
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"ENSG00000084754",
+"subsystem":"dummy FA degradation reactions"
+},
+{
+"id":"MAR_dummy_080",
+"name":"C14_1(3) beta-oxi step 3",
+"metabolites":{
+"MAM02039[m]":1.0,
+"MAM02552[m]":-1.0,
+"MAM02553[m]":1.0,
+"MAM_dummy_064[m]":-1.0,
+"MAM_dummy_065[m]":1.0
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"ENSG00000084754",
+"subsystem":"dummy FA degradation reactions"
+},
+{
+"id":"MAR_dummy_081",
+"name":"C14_1(3) beta-oxi step 4",
+"metabolites":{
+"MAM01261[m]":1.0,
+"MAM01597[m]":-1.0,
+"MAM_dummy_019[m]":1.0,
+"MAM_dummy_065[m]":-1.0
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"ENSG00000138029 or ENSG00000167315",
+"subsystem":"dummy FA degradation reactions"
+},
+{
+"id":"MAR_dummy_082",
+"name":"passive diffusion C24_1(13) [e] to [c]",
+"metabolites":{
+"MAM_dummy_066[c]":1.0,
+"MAM_dummy_066[e]":-1.0
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"",
+"subsystem":"dummy FA degradation reactions"
+},
+{
+"id":"MAR_dummy_083",
+"name":"protein-related transport C24_1(13) [e] to [c]",
+"metabolites":{
+"MAM_dummy_066[c]":1.0,
+"MAM_dummy_066[e]":-1.0
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"ENSG00000121769 or ENSG00000135218 or ENSG00000145384 or ENSG00000163586 or ENSG00000164434 or ENSG00000164687 or ENSG00000170231 or ENSG00000170323 or ENSG00000197416 or ENSG00000205186",
+"subsystem":"dummy FA degradation reactions"
+},
+{
+"id":"MAR_dummy_084",
+"name":"activation of C24_1(13)",
+"metabolites":{
+"MAM01334[c]":1.0,
+"MAM01371[c]":-1.0,
+"MAM01597[c]":-1.0,
+"MAM02759[c]":1.0,
+"MAM_dummy_066[c]":-1.0,
+"MAM_dummy_067[c]":1.0
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"ENSG00000103740 or ENSG00000130377",
+"subsystem":"dummy FA degradation reactions"
+},
+{
+"id":"MAR_dummy_085",
+"name":"transport and activation of C24_1(13)",
+"metabolites":{
+"MAM01334[c]":1.0,
+"MAM01371[c]":-1.0,
+"MAM01597[c]":-1.0,
+"MAM02759[c]":1.0,
+"MAM_dummy_066[c]":-1.0,
+"MAM_dummy_067[c]":1.0
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"ENSG00000130304 or ENSG00000140284 or ENSG00000143554 or ENSG00000167114 or ENSG00000083807 or ENSG00000113396",
+"subsystem":"dummy FA degradation reactions"
+},
+{
+"id":"MAR_dummy_086",
+"name":"transport C24_1(13) [c] to [x]",
+"metabolites":{
+"MAM_dummy_067[c]":-1.0,
+"MAM_dummy_067[x]":1.0
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"ENSG00000101986 or ENSG00000173208 or ENSG00000117528",
+"subsystem":"dummy FA degradation reactions"
+},
+{
+"id":"MAR_dummy_087",
+"name":"C24_1(13) beta-oxi step 1",
+"metabolites":{
+"MAM02041[x]":1.0,
+"MAM02630[x]":-1.0,
+"MAM_dummy_067[x]":-1.0,
+"MAM_dummy_068[x]":1.0
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"ENSG00000161533 or ENSG00000087008",
+"subsystem":"dummy FA degradation reactions"
+},
+{
+"id":"MAR_dummy_088",
+"name":"C24_1(13) beta-oxi step 2",
+"metabolites":{
+"MAM02040[x]":-1.0,
+"MAM_dummy_068[x]":-1.0,
+"MAM_dummy_069[x]":1.0
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"ENSG00000133835",
+"subsystem":"dummy FA degradation reactions"
+},
+{
+"id":"MAR_dummy_089",
+"name":"C24_1(13) beta-oxi step 3",
+"metabolites":{
+"MAM02039[x]":1.0,
+"MAM02552[x]":-1.0,
+"MAM02553[x]":1.0,
+"MAM_dummy_069[x]":-1.0,
+"MAM_dummy_070[x]":1.0
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"ENSG00000133835",
+"subsystem":"dummy FA degradation reactions"
+},
+{
+"id":"MAR_dummy_090",
+"name":"C24_1(13) beta-oxi step 4",
+"metabolites":{
+"MAM01261[x]":1.0,
+"MAM01597[x]":-1.0,
+"MAM_dummy_070[x]":-1.0,
+"MAM_dummy_071[x]":1.0
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"ENSG00000060971",
+"subsystem":"dummy FA degradation reactions"
+},
+{
+"id":"MAR_dummy_091",
+"name":"C22_1(11) beta-oxi step 1",
+"metabolites":{
+"MAM02041[x]":1.0,
+"MAM02630[x]":-1.0,
+"MAM_dummy_071[x]":-1.0,
+"MAM_dummy_072[x]":1.0
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"ENSG00000161533 or ENSG00000087008",
+"subsystem":"dummy FA degradation reactions"
+},
+{
+"id":"MAR_dummy_092",
+"name":"C22_1(11) beta-oxi step 2",
+"metabolites":{
+"MAM02040[x]":-1.0,
+"MAM_dummy_072[x]":-1.0,
+"MAM_dummy_073[x]":1.0
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"ENSG00000133835",
+"subsystem":"dummy FA degradation reactions"
+},
+{
+"id":"MAR_dummy_093",
+"name":"C22_1(11) beta-oxi step 3",
+"metabolites":{
+"MAM02039[x]":1.0,
+"MAM02552[x]":-1.0,
+"MAM02553[x]":1.0,
+"MAM_dummy_073[x]":-1.0,
+"MAM_dummy_074[x]":1.0
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"ENSG00000133835",
+"subsystem":"dummy FA degradation reactions"
+},
+{
+"id":"MAR_dummy_094",
+"name":"C22_1(11) beta-oxi step 4",
+"metabolites":{
+"MAM01261[x]":1.0,
+"MAM01597[x]":-1.0,
+"MAM_dummy_049[x]":1.0,
+"MAM_dummy_074[x]":-1.0
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"ENSG00000060971",
+"subsystem":"dummy FA degradation reactions"
+},
+{
+"id":"MAR_dummy_095",
+"name":"carnitine shuttle from x to m C20_1(9) step 1",
+"metabolites":{
+"MAM01597[x]":1.0,
+"MAM02348[x]":-1.0,
+"MAM_dummy_049[x]":-1.0,
+"MAM_dummy_050[x]":1.0
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"ENSG00000005469",
+"subsystem":"dummy FA degradation reactions"
+},
+{
+"id":"MAR_dummy_096",
+"name":"carnitine shuttle from x to m C20_1(9) step 2",
+"metabolites":{
+"MAM_dummy_050[m]":1.0,
+"MAM_dummy_050[x]":-1.0
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"ENSG00000178537",
+"subsystem":"dummy FA degradation reactions"
+},
+{
+"id":"MAR_dummy_097",
+"name":"passive diffusion C20_2(6,9) [e] to [c]",
+"metabolites":{
+"MAM_dummy_075[c]":1.0,
+"MAM_dummy_075[e]":-1.0
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"",
+"subsystem":"dummy FA degradation reactions"
+},
+{
+"id":"MAR_dummy_098",
+"name":"protein-related transport C20_2(6,9) [e] to [c]",
+"metabolites":{
+"MAM_dummy_075[c]":1.0,
+"MAM_dummy_075[e]":-1.0
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"ENSG00000121769 or ENSG00000135218 or ENSG00000145384 or ENSG00000163586 or ENSG00000164434 or ENSG00000164687 or ENSG00000170231 or ENSG00000170323 or ENSG00000197416 or ENSG00000205186",
+"subsystem":"dummy FA degradation reactions"
+},
+{
+"id":"MAR_dummy_099",
+"name":"activation of  C20_2(6,9)",
+"metabolites":{
+"MAM01334[c]":1.0,
+"MAM01371[c]":-1.0,
+"MAM01597[c]":-1.0,
+"MAM02759[c]":1.0,
+"MAM_dummy_075[c]":-1.0,
+"MAM_dummy_076[c]":1.0
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"ENSG00000151726 or ENSG00000123983 or ENSG00000068366 or ENSG00000197142 or ENSG00000164398 or ENSG00000103740 or ENSG00000130377",
+"subsystem":"dummy FA degradation reactions"
+},
+{
+"id":"MAR_dummy_100",
+"name":"transport and activation of  C20_2(6,9)",
+"metabolites":{
+"MAM01334[c]":1.0,
+"MAM01371[c]":-1.0,
+"MAM01597[c]":-1.0,
+"MAM02759[c]":1.0,
+"MAM_dummy_075[e]":-1.0,
+"MAM_dummy_076[c]":1.0
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"ENSG00000130304 or ENSG00000140284 or ENSG00000143554 or ENSG00000167114 or ENSG00000083807 or ENSG00000113396",
+"subsystem":"dummy FA degradation reactions"
+},
+{
+"id":"MAR_dummy_101",
+"name":"carnitine shuttle from c to m C20_2(6,9) step 1",
+"metabolites":{
+"MAM01597[c]":1.0,
+"MAM02348[c]":-1.0,
+"MAM_dummy_076[c]":-1.0,
+"MAM_dummy_077[c]":1.0
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"ENSG00000110090 or ENSG00000169169 or ENSG00000205560",
+"subsystem":"dummy FA degradation reactions"
+},
+{
+"id":"MAR_dummy_102",
+"name":"carnitine shuttle from c to m C20_2(6,9) step 2",
+"metabolites":{
+"MAM_dummy_077[c]":-1.0,
+"MAM_dummy_077[m]":1.0
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"ENSG00000178537",
+"subsystem":"dummy FA degradation reactions"
+},
+{
+"id":"MAR_dummy_103",
+"name":"carnitine shuttle from c to m C20_2(6,9) step 3",
+"metabolites":{
+"MAM01597[m]":-1.0,
+"MAM02348[m]":1.0,
+"MAM_dummy_076[m]":1.0,
+"MAM_dummy_077[m]":-1.0
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"ENSG00000157184",
+"subsystem":"dummy FA degradation reactions"
+},
+{
+"id":"MAR_dummy_104",
+"name":"C20_2(6,9) beta oxi step 1",
+"metabolites":{
+"MAM01802[m]":-1.0,
+"MAM01803[m]":1.0,
+"MAM_dummy_076[m]":-1.0,
+"MAM_dummy_078[m]":1.0
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"ENSG00000072778 or ENSG00000115361 or ENSG00000177646 or ENSG00000240303",
+"subsystem":"dummy FA degradation reactions"
+},
+{
+"id":"MAR_dummy_105",
+"name":"C20_2(6,9) beta oxi step 2",
+"metabolites":{
+"MAM02040[m]":-1.0,
+"MAM_dummy_078[m]":-1.0,
+"MAM_dummy_079[m]":1.0
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"ENSG00000084754",
+"subsystem":"dummy FA degradation reactions"
+},
+{
+"id":"MAR_dummy_106",
+"name":"C20_2(6,9) beta oxi step 3",
+"metabolites":{
+"MAM02039[m]":1.0,
+"MAM02552[m]":-1.0,
+"MAM02553[m]":1.0,
+"MAM_dummy_079[m]":-1.0,
+"MAM_dummy_080[m]":1.0
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"ENSG00000084754",
+"subsystem":"dummy FA degradation reactions"
+},
+{
+"id":"MAR_dummy_107",
+"name":"C20_2(6,9) beta oxi step 4",
+"metabolites":{
+"MAM01261[m]":1.0,
+"MAM01597[m]":-1.0,
+"MAM_dummy_080[m]":-1.0,
+"MAM_dummy_081[m]":1.0
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"ENSG00000138029",
+"subsystem":"dummy FA degradation reactions"
+},
+{
+"id":"MAR_dummy_108",
+"name":"C18_2(4,7) beta-oxi step 1",
+"metabolites":{
+"MAM01802[m]":-1.0,
+"MAM01803[m]":1.0,
+"MAM_dummy_081[m]":-1.0,
+"MAM_dummy_082[m]":1.0
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"ENSG00000072778 or ENSG00000115361 or ENSG00000177646",
+"subsystem":"dummy FA degradation reactions"
+},
+{
+"id":"MAR_dummy_109",
+"name":"C18_2(4,7) reductase",
+"metabolites":{
+"MAM02039[m]":-1.0,
+"MAM02554[m]":1.0,
+"MAM02555[m]":-1.0,
+"MAM_dummy_082[m]":-1.0,
+"MAM_dummy_083[m]":1.0
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"ENSG00000104325 or ENSG00000242612",
+"subsystem":"dummy FA degradation reactions"
+},
+{
+"id":"MAR_dummy_110",
+"name":"C18_2(4,7) isomerase",
+"metabolites":{
+"MAM_dummy_083[m]":-1.0,
+"MAM_dummy_084[m]":1.0
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"ENSG00000167969 or ENSG00000198721",
+"subsystem":"dummy FA degradation reactions"
+},
+{
+"id":"MAR_dummy_111",
+"name":"C18_2(4,7) beta-oxi step 2",
+"metabolites":{
+"MAM02040[m]":-1.0,
+"MAM_dummy_084[m]":-1.0,
+"MAM_dummy_085[m]":1.0
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"ENSG00000084754",
+"subsystem":"dummy FA degradation reactions"
+},
+{
+"id":"MAR_dummy_112",
+"name":"C18_2(4,7) beta-oxi step 3",
+"metabolites":{
+"MAM02039[m]":1.0,
+"MAM02552[m]":-1.0,
+"MAM02553[m]":1.0,
+"MAM_dummy_085[m]":-1.0,
+"MAM_dummy_086[m]":1.0
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"ENSG00000084754",
+"subsystem":"dummy FA degradation reactions"
+},
+{
+"id":"MAR_dummy_113",
+"name":"C18_2(4,7) beta-oxi step 4",
+"metabolites":{
+"MAM01261[m]":1.0,
+"MAM01597[m]":-1.0,
+"MAM_dummy_058[m]":1.0,
+"MAM_dummy_086[m]":-1.0
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"ENSG00000138029",
+"subsystem":"dummy FA degradation reactions"
+},
+{
+"id":"MAR_dummy_114",
+"name":"passive diffusion C24_2(10,13) [e] to [c]",
+"metabolites":{
+"MAM_dummy_087[c]":1.0,
+"MAM_dummy_087[e]":-1.0
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"",
+"subsystem":"dummy FA degradation reactions"
+},
+{
+"id":"MAR_dummy_115",
+"name":"protein-related transport C24_2(10,13) [e] to [c]",
+"metabolites":{
+"MAM_dummy_087[c]":1.0,
+"MAM_dummy_087[e]":-1.0
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"ENSG00000121769 or ENSG00000135218 or ENSG00000145384 or ENSG00000163586 or ENSG00000164434 or ENSG00000164687 or ENSG00000170231 or ENSG00000170323 or ENSG00000197416 or ENSG00000205186",
+"subsystem":"dummy FA degradation reactions"
+},
+{
+"id":"MAR_dummy_116",
+"name":"activation of  C24_2(10,13)",
+"metabolites":{
+"MAM01334[c]":1.0,
+"MAM01371[c]":-1.0,
+"MAM01597[c]":-1.0,
+"MAM02759[c]":1.0,
+"MAM_dummy_087[c]":-1.0,
+"MAM_dummy_088[c]":1.0
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"ENSG00000103740 or ENSG00000130377",
+"subsystem":"dummy FA degradation reactions"
+},
+{
+"id":"MAR_dummy_117",
+"name":"transport and activation of  C24_2(10,13)",
+"metabolites":{
+"MAM01334[c]":1.0,
+"MAM01371[c]":-1.0,
+"MAM01597[c]":-1.0,
+"MAM02759[c]":1.0,
+"MAM_dummy_087[e]":-1.0,
+"MAM_dummy_088[c]":1.0
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"ENSG00000130304 or ENSG00000140284 or ENSG00000143554 or ENSG00000167114 or ENSG00000083807 or ENSG00000113396",
+"subsystem":"dummy FA degradation reactions"
+},
+{
+"id":"MAR_dummy_118",
+"name":"transport  C24_2(10,13) [c] to [x]",
+"metabolites":{
+"MAM_dummy_088[c]":-1.0,
+"MAM_dummy_088[x]":1.0
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"ENSG00000101986 or ENSG00000173208 or ENSG00000117528",
+"subsystem":"dummy FA degradation reactions"
+},
+{
+"id":"MAR_dummy_119",
+"name":"C24_2(10,13) beta-oxi step 1",
+"metabolites":{
+"MAM02041[x]":1.0,
+"MAM02630[x]":-1.0,
+"MAM_dummy_088[x]":-1.0,
+"MAM_dummy_089[x]":1.0
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"ENSG00000161533 or ENSG00000087008",
+"subsystem":"dummy FA degradation reactions"
+},
+{
+"id":"MAR_dummy_120",
+"name":"C24_2(10,13) beta-oxi step 2",
+"metabolites":{
+"MAM02040[x]":-1.0,
+"MAM_dummy_089[x]":-1.0,
+"MAM_dummy_090[x]":1.0
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"ENSG00000133835",
+"subsystem":"dummy FA degradation reactions"
+},
+{
+"id":"MAR_dummy_121",
+"name":"C24_2(10,13) beta-oxi step 3",
+"metabolites":{
+"MAM02039[x]":1.0,
+"MAM02552[x]":-1.0,
+"MAM02553[x]":1.0,
+"MAM_dummy_090[x]":-1.0,
+"MAM_dummy_091[x]":1.0
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"ENSG00000133835",
+"subsystem":"dummy FA degradation reactions"
+},
+{
+"id":"MAR_dummy_122",
+"name":"C24_2(10,13) beta-oxi step 4",
+"metabolites":{
+"MAM01261[x]":1.0,
+"MAM01597[x]":-1.0,
+"MAM_dummy_091[x]":-1.0,
+"MAM_dummy_092[x]":1.0
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"ENSG00000060971",
+"subsystem":"dummy FA degradation reactions"
+},
+{
+"id":"MAR_dummy_123",
+"name":"C22_2(8,11) beta-oxi step 1",
+"metabolites":{
+"MAM02041[x]":1.0,
+"MAM02630[x]":-1.0,
+"MAM_dummy_092[x]":-1.0,
+"MAM_dummy_093[x]":1.0
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"ENSG00000161533 or ENSG00000087008",
+"subsystem":"dummy FA degradation reactions"
+},
+{
+"id":"MAR_dummy_124",
+"name":"C22_2(8,11) beta-oxi step 2",
+"metabolites":{
+"MAM02040[x]":-1.0,
+"MAM_dummy_093[x]":-1.0,
+"MAM_dummy_094[x]":1.0
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"ENSG00000133835",
+"subsystem":"dummy FA degradation reactions"
+},
+{
+"id":"MAR_dummy_125",
+"name":"C22_2(8,11) beta-oxi step 3",
+"metabolites":{
+"MAM02039[x]":1.0,
+"MAM02552[x]":-1.0,
+"MAM02553[x]":1.0,
+"MAM_dummy_094[x]":-1.0,
+"MAM_dummy_095[x]":1.0
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"ENSG00000133835",
+"subsystem":"dummy FA degradation reactions"
+},
+{
+"id":"MAR_dummy_126",
+"name":"C22_2(8,11) beta-oxi step 4",
+"metabolites":{
+"MAM01261[x]":1.0,
+"MAM01597[x]":-1.0,
+"MAM_dummy_076[x]":1.0,
+"MAM_dummy_095[x]":-1.0
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"ENSG00000060971",
+"subsystem":"dummy FA degradation reactions"
+},
+{
+"id":"MAR_dummy_127",
+"name":"carnitine shuttle from x to m C20_2(6,9) step 1",
+"metabolites":{
+"MAM01597[x]":1.0,
+"MAM02348[x]":-1.0,
+"MAM_dummy_076[x]":-1.0,
+"MAM_dummy_077[x]":1.0
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"ENSG00000005469",
+"subsystem":"dummy FA degradation reactions"
+},
+{
+"id":"MAR_dummy_128",
+"name":"carnitine shuttle from x to m C20_2(6,9) step 2",
+"metabolites":{
+"MAM_dummy_077[m]":1.0,
+"MAM_dummy_077[x]":-1.0
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"ENSG00000178537",
+"subsystem":"dummy FA degradation reactions"
+},
+{
+"id":"MAR_dummy_129",
+"name":"passive diffusion C8_0 [e] to [c]",
+"metabolites":{
+"MAM_dummy_096[c]":1.0,
+"MAM_dummy_096[e]":-1.0
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"",
+"subsystem":"dummy FA degradation reactions"
+},
+{
+"id":"MAR_dummy_130",
+"name":"activation of C8_0 ",
+"metabolites":{
+"MAM01334[c]":1.0,
+"MAM01371[c]":-1.0,
+"MAM01597[c]":-1.0,
+"MAM02759[c]":1.0,
+"MAM_dummy_027[c]":1.0,
+"MAM_dummy_096[c]":-1.0
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"ENSG00000005187 or ENSG00000066813 or ENSG00000166743 or ENSG00000183549 or ENSG00000183747 or ENSG00000215009",
+"subsystem":"dummy FA degradation reactions"
+},
+{
+"id":"MAR_dummy_131",
+"name":"passive diffusion C8_0 [c] to [m]",
+"metabolites":{
+"MAM_dummy_027[c]":-1.0,
+"MAM_dummy_027[m]":1.0
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"",
+"subsystem":"dummy FA degradation reactions"
+},
+{
+"id":"MAR90001",
+"name":"Reduction PGD2 -> PGF2beta",
+"metabolites":{
+"MAM02039[c]":-1.0,
+"MAM02554[c]":1.0,
+"MAM02555[c]":-1.0,
+"MAM02783[c]":-1.0,
+"MAM02790[c]":1.0
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"ENSG00000196139",
+"subsystem":"prostaglandins"
+},
+{
+"id":"MAR90002",
+"name":"Isomerization PGE2 -> PGF2alpha",
+"metabolites":{
+"MAM02786[r]":-1.0,
+"MAM02789[r]":1.0
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"",
+"subsystem":"prostaglandins"
+},
+{
+"id":"MAR90003",
+"name":"prostaglandin H2 = thromboxane A2",
+"metabolites":{
+"MAM02794[r]":-1.0,
+"MAM02994[r]":1.0
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"ENSG00000124212",
+"subsystem":"prostaglandins"
+},
+{
+"id":"MAR90004",
+"name":"FADH2 + prostaglandin G2 = FAD + H2O + prostaglandin H2",
+"metabolites":{
+"MAM01802[r]":1.0,
+"MAM01803[r]":-1.0,
+"MAM02040[r]":1.0,
+"MAM02792[r]":-1.0,
+"MAM02794[r]":1.0
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"ENSG00000073756",
+"subsystem":"prostaglandins"
+},
+{
+"id":"MAR90005",
+"name":"2 O2 + all-cis-docosa-7,10,13,16-tetraenoic acid = Dihomo-Prostaglandin G2",
+"metabolites":{
+"MAM01291[r]":-1.0,
+"MAM02630[r]":-2.0,
+"MAM90001[r]":1.0
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"ENSG00000095303 or ENSG00000073756",
+"subsystem":"prostaglandins"
+},
+{
+"id":"MAR90006",
+"name":"FADH2 + Dihomo-Prostaglandin G2 = Dihomo-Prostaglandin H2 + FAD + H2O",
+"metabolites":{
+"MAM01802[r]":1.0,
+"MAM01803[r]":-1.0,
+"MAM02040[r]":1.0,
+"MAM90001[r]":-1.0,
+"MAM90002[r]":1.0
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"ENSG00000095303 or ENSG00000073756",
+"subsystem":"prostaglandins"
+},
+{
+"id":"MAR90007",
+"name":"Dihomo-Prostaglandin H2 = Dihomo-Prostaglandin D2",
+"metabolites":{
+"MAM90002[r]":-1.0,
+"MAM90003[r]":1.0
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"ENSG00000107317",
+"subsystem":"prostaglandins"
+},
+{
+"id":"MAR90008",
+"name":"Dihomo-Prostaglandin D2 = Dihomo-Prostaglandin J2 + H2O",
+"metabolites":{
+"MAM02040[r]":1.0,
+"MAM90003[r]":-1.0,
+"MAM90004[r]":1.0
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"",
+"subsystem":"prostaglandins"
+},
+{
+"id":"MAR90009",
+"name":"Dihomo-Prostaglandin J2 = Dihomo-15d-Prostaglandin J2 + H2O",
+"metabolites":{
+"MAM02040[r]":1.0,
+"MAM90004[r]":-1.0,
+"MAM90005[r]":1.0
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"",
+"subsystem":"prostaglandins"
+},
+{
+"id":"MAR90010",
+"name":"PGE2 -> 15-keto-PGE2",
+"metabolites":{
+"MAM02039[c]":1.0,
+"MAM02554[c]":-1.0,
+"MAM02555[c]":1.0,
+"MAM02786[c]":-1.0,
+"MAM20014[c]":1.0
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"ENSG00000164120",
+"subsystem":"prostaglandins"
+},
+{
+"id":"MAR90011",
+"name":"15-keto-PGE2 -> 13,14-dihydro-15-keto-PGE2",
+"metabolites":{
+"MAM02039[c]":-1.0,
+"MAM02554[c]":1.0,
+"MAM02555[c]":-1.0,
+"MAM20014[c]":-1.0,
+"MAM20015[c]":1.0
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"ENSG00000258653",
+"subsystem":"prostaglandins"
+},
+{
+"id":"MAR90012",
+"name":"Dihomo-Prostaglandin H2 (ER)  = Dihomo-Prostaglandin H2 (Cytosol)",
+"metabolites":{
+"MAM90002[c]":1.0,
+"MAM90002[r]":-1.0
+},
+"lower_bound":-1000,
+"upper_bound":1000,
+"gene_reaction_rule":"ENSG00000174640",
+"subsystem":"prostaglandins"
+},
+{
+"id":"MAR90013",
+"name":"Dihomo-Prostaglandin H2 = Dihomo-Prostaglandin F2a",
+"metabolites":{
+"MAM02666[c]":1.0,
+"MAM02990[c]":-1.0,
+"MAM90002[c]":-1.0,
+"MAM90006[c]":1.0
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"ENSG00000157870",
+"subsystem":"prostaglandins"
+},
+{
+"id":"MAR90014",
+"name":"hydrolysis of 15(S)-HpETE",
+"metabolites":{
+"MAM00380[c]":-1.0,
+"MAM02040[c]":1.0,
+"MAM90007[c]":1.0
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"ENSG00000161905",
+"subsystem":"prostaglandins"
+},
+{
+"id":"MAR90015",
+"name":"Eoxin A4 -> Eoxin C4",
+"metabolites":{
+"MAM02026[c]":-1.0,
+"MAM90007[c]":-1.0,
+"MAM90008[c]":1.0
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"ENSG00000213316 and ENSG00000084207",
+"subsystem":"prostaglandins"
+},
+{
+"id":"MAR90016",
+"name":"Eoxin C4 -> Eoxin D4",
+"metabolites":{
+"MAM01974[c]":1.0,
+"MAM02040[c]":-1.0,
+"MAM90008[c]":-1.0,
+"MAM90009[c]":1.0
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"ENSG00000100031",
+"subsystem":"prostaglandins"
+},
+{
+"id":"MAR90017",
+"name":"Eoxin D4 -> Eoxin E4",
+"metabolites":{
+"MAM01986[c]":1.0,
+"MAM02040[c]":-1.0,
+"MAM90009[c]":-1.0,
+"MAM90010[c]":1.0
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"ENSG00000015413",
+"subsystem":"prostaglandins"
+},
+{
+"id":"MAR90018",
+"name":"PGI2 -> 15-keto PGI2",
+"metabolites":{
+"MAM02039[c]":1.0,
+"MAM02554[c]":-1.0,
+"MAM02555[c]":1.0,
+"MAM02795[c]":-1.0,
+"MAM90011[c]":1.0
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"ENSG00000164120",
+"subsystem":"prostaglandins"
+},
+{
+"id":"MAR90019",
+"name":"ceramide -> glucosylceramide",
+"metabolites":{
+"MAM01430[g]":-1.0,
+"MAM01972[g]":1.0,
+"MAM02039[g]":1.0,
+"MAM03106[g]":1.0,
+"MAM03108[g]":-1.0
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"ENSG00000148154",
+"subsystem":"phospholipids"
+},
+{
+"id":"MAR90020",
+"name":"RyR channel flux",
+"metabolites":{
+"MAM01413[c]":1.0,
+"MAM01413[s]":-1.0
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"ENSG00000196218 or ENSG00000198626 or ENSG00000198838 or ENSG00000150995 or ENSG00000123104 or ENSG00000096433",
+"subsystem":"cardiac Calcium Handling"
+},
+{
+"id":"MAR90021",
+"name":"Ca2+ ATPase (SR)",
+"metabolites":{
+"MAM01285[c]":1.0,
+"MAM01371[c]":-1.0,
+"MAM01413[c]":-2.0,
+"MAM01413[s]":2.0,
+"MAM02039[c]":1.0,
+"MAM02040[c]":-1.0,
+"MAM02751[c]":1.0
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"ENSG00000196296 or ENSG00000174437 or ENSG00000074370",
+"subsystem":"cardiac Calcium Handling"
+},
+{
+"id":"MAR90022",
+"name":"NOX2 (phagocytes)",
+"metabolites":{
+"MAM02039[c]":1.0,
+"MAM02554[c]":1.0,
+"MAM02555[c]":-1.0,
+"MAM02630[c]":-2.0,
+"MAM02631[e]":2.0
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"ENSG00000165168 and ENSG00000100170 and ENSG00000158517 and ENSG00000111716 and ENSG00000133193 and (ENSG00000136238 or ENSG00000128340)",
+"subsystem":"ROS metabolism"
+},
+{
+"id":"MAR90023",
+"name":"mitochondiral calcium transport",
+"metabolites":{
+"MAM01413[c]":-1.0,
+"MAM01413[m]":1.0
+},
+"lower_bound":-1000,
+"upper_bound":1000,
+"gene_reaction_rule":"ENSG00000156026 and ENSG00000107745 and ENSG00000165487 and ENSG00000183172",
+"subsystem":"mitochondiral calcium transport"
+},
+{
+"id":"MAR90024",
+"name":"synthesis of 1-acylglycerol-3P pool ",
+"metabolites":{
+"MAM01597[c]":1.0,
+"MAM02914[c]":-1.0,
+"MAM10006[c]":1.0,
+"MAM10007[c]":-1.0
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"ENSG00000158669 or ENSG00000186281 or ENSG00000138678 or ENSG00000119927",
+"subsystem":"triacylglycerol synthesis"
+},
+{
+"id":"MAR90025",
+"name":"3A reduction",
+"metabolites":{
+"MAM01069[c]":-1.0,
+"MAM02039[c]":-1.0,
+"MAM02554[c]":1.0,
+"MAM02555[c]":-1.0,
+"MAM90012[c]":1.0
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"ENSG00000151632 or ENSG00000198610",
+"subsystem":"sex hormone inactivation"
+},
+{
+"id":"MAR90026",
+"name":"conversion of 17B hydroxy to 17b keto",
+"metabolites":{
+"MAM01338[c]":1.0,
+"MAM02039[c]":-1.0,
+"MAM02554[c]":1.0,
+"MAM02555[c]":-1.0,
+"MAM90012[c]":-1.0
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"ENSG00000086696 or ENSG00000133835",
+"subsystem":"sex hormone inactivation"
+},
+{
+"id":"MAR90027",
+"name":"glucuronidation",
+"metabolites":{
+"MAM01338[c]":-1.0,
+"MAM03106[c]":1.0,
+"MAM03109[c]":-1.0,
+"MAM90013[c]":1.0
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"ENSG00000171234 or ENSG00000196620 or ENSG00000197888",
+"subsystem":"sex hormone inactivation"
+},
+{
+"id":"MAR90028",
+"name":"5B reduction",
+"metabolites":{
+"MAM02039[c]":-1.0,
+"MAM02554[c]":1.0,
+"MAM02555[c]":-1.0,
+"MAM02969[c]":-1.0,
+"MAM90014[c]":1.0
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"ENSG00000122787",
+"subsystem":"sex hormone inactivation"
+},
+{
+"id":"MAR90029",
+"name":"3A reduction",
+"metabolites":{
+"MAM02039[c]":-1.0,
+"MAM02554[c]":1.0,
+"MAM02555[c]":-1.0,
+"MAM90014[c]":-1.0,
+"MAM90015[c]":1.0
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"ENSG00000151632 or ENSG00000198610",
+"subsystem":"sex hormone inactivation"
+},
+{
+"id":"MAR90030",
+"name":"conversion of 17B hydroxy to 17b keto",
+"metabolites":{
+"MAM02039[c]":-1.0,
+"MAM02554[c]":1.0,
+"MAM02555[c]":-1.0,
+"MAM90015[c]":-1.0,
+"MAM90016[c]":1.0
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"ENSG00000086696 or ENSG00000133835",
+"subsystem":"sex hormone inactivation"
+},
+{
+"id":"MAR90031",
+"name":"glucuronidation",
+"metabolites":{
+"MAM03106[c]":1.0,
+"MAM03109[c]":-1.0,
+"MAM90016[c]":-1.0,
+"MAM90017[c]":1.0
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"ENSG00000171234 or ENSG00000196620 or ENSG00000197888",
+"subsystem":"sex hormone inactivation"
+},
+{
+"id":"MAR90032",
+"name":"sulfation",
+"metabolites":{
+"MAM01012[c]":-1.0,
+"MAM02681[c]":1.0,
+"MAM02682[c]":-1.0,
+"MAM90018[c]":1.0
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"ENSG00000109193 or ENSG00000289755 or ENSG00000261052",
+"subsystem":"sex hormone inactivation"
+},
+{
+"id":"MAR90033",
+"name":"glucuronidation",
+"metabolites":{
+"MAM01012[c]":-1.0,
+"MAM03106[c]":1.0,
+"MAM03109[c]":-1.0,
+"MAM90019[c]":1.0
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"ENSG00000241635 or ENSG00000171234",
+"subsystem":"sex hormone inactivation"
+},
+{
+"id":"MAR90034",
+"name":"5B reduction",
+"metabolites":{
+"MAM02039[c]":-1.0,
+"MAM02554[c]":1.0,
+"MAM02555[c]":-1.0,
+"MAM02769[c]":-1.0,
+"MAM90020[c]":1.0
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"ENSG00000122787",
+"subsystem":"sex hormone inactivation"
+},
+{
+"id":"MAR90035",
+"name":"3a reduction",
+"metabolites":{
+"MAM02039[c]":-1.0,
+"MAM02554[c]":1.0,
+"MAM02555[c]":-1.0,
+"MAM90020[c]":-1.0,
+"MAM90021[c]":1.0
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"ENSG00000151632",
+"subsystem":"sex hormone inactivation"
+},
+{
+"id":"MAR90036",
+"name":"20a reduction",
+"metabolites":{
+"MAM02039[c]":-1.0,
+"MAM02554[c]":1.0,
+"MAM02555[c]":-1.0,
+"MAM90021[c]":-1.0,
+"MAM90022[c]":1.0
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"ENSG00000187134",
+"subsystem":"sex hormone inactivation"
+},
+{
+"id":"MAR90037",
+"name":"glucuronidation",
+"metabolites":{
+"MAM03106[c]":1.0,
+"MAM03109[c]":-1.0,
+"MAM90022[c]":-1.0,
+"MAM90023[c]":1.0
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"ENSG00000171234",
+"subsystem":"sex hormone inactivation"
+},
+{
+"id":"MAR90038",
+"name":"sulfation",
+"metabolites":{
+"MAM01337[c]":1.0,
+"MAM01338[c]":-1.0,
+"MAM02681[c]":1.0,
+"MAM02682[c]":-1.0
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"ENSG00000105398",
+"subsystem":"sex hormone inactivation"
 }
 ],
 "genes":[
@@ -359971,6 +363393,78 @@
 {
 "id":"ENSG00000157388",
 "name":""
+},
+{
+"id":"ENSG00000258653",
+"name":""
+},
+{
+"id":"ENSG00000157870",
+"name":""
+},
+{
+"id":"ENSG00000096433",
+"name":""
+},
+{
+"id":"ENSG00000123104",
+"name":""
+},
+{
+"id":"ENSG00000198838",
+"name":""
+},
+{
+"id":"ENSG00000150995",
+"name":""
+},
+{
+"id":"ENSG00000196218",
+"name":""
+},
+{
+"id":"ENSG00000198626",
+"name":""
+},
+{
+"id":"ENSG00000158517",
+"name":""
+},
+{
+"id":"ENSG00000128340",
+"name":""
+},
+{
+"id":"ENSG00000165168",
+"name":""
+},
+{
+"id":"ENSG00000133193",
+"name":""
+},
+{
+"id":"ENSG00000136238",
+"name":""
+},
+{
+"id":"ENSG00000165487",
+"name":""
+},
+{
+"id":"ENSG00000107745",
+"name":""
+},
+{
+"id":"ENSG00000156026",
+"name":""
+},
+{
+"id":"ENSG00000183172",
+"name":""
+},
+{
+"id":"ENSG00000289755",
+"name":""
 }
 ],
 "id":"model",
@@ -359983,6 +363477,7 @@
 "m":"m",
 "n":"n",
 "r":"r",
+"s":"",
 "x":"x"
 },
 "version":"1"

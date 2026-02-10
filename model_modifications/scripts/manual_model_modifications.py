@@ -26,6 +26,7 @@ The changes:
     ENSG00000081248 or ENSG00000151067 or ENSG00000157388 or ENSG00000102001
 5. Removing MAR07629 
 6. Making MAR04356 reversible
+7. Making MAR02036 reversible
 '''
 
 model_v17 = load_matlab_model(r"C:\Users\inapa\PycharmProjects\metabolic_modeling\model_modifications\inputs\model_Human-GEM_COBRA version 17.mat")
@@ -89,6 +90,14 @@ model_v17.reactions.get_by_id('MAR04356').reaction
 model_v17.reactions.get_by_id('MAR04356').bounds = (-1000,1000)
 
 model_v17.reactions.get_by_id('MAR04356').reaction
+
+# 7. Making MAR02036 reversible
+
+model_v17.reactions.get_by_id('MAR02036').reaction
+
+model_v17.reactions.get_by_id('MAR02036').bounds = (-1000,1000)
+
+model_v17.reactions.get_by_id('MAR02036').reaction
 
 ## save manual in a folder where it is going to be used for the model addition script
 save_json_model(model_v17, r"C:\Users\inapa\PycharmProjects\metabolic_modeling\model_modifications\inputs\model_v17_with_manual_mods.json")

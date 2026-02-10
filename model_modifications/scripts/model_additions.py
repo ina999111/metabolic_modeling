@@ -1,6 +1,7 @@
 
 import sys
 
+from useful_functions.change_formula_id_for_names import change_formula_id_for_names
 
 sys.path.append(r"C:\Users\inapa\PycharmProjects\SWAMP")
 
@@ -225,6 +226,8 @@ def add_metabolites_to_model(
 
         list_metabolites_added[idx] = metabolite_to_add
 
+        print(f"the following metabolite was added:{metabolite_to_add}")
+
     log_metabolites = create_log_for_metabolites(cobra_model, list_metabolites_added)
 
     end_number_metabolites = len(model_new.metabolites)
@@ -232,6 +235,11 @@ def add_metabolites_to_model(
     print(added_number_metabolites, 'metabolites were added to the model')
 
     return model_new, log_metabolites
+
+# test
+#model_new, log_metabolites = add_metabolites_to_model(cobra_model, dataframe_metabolites_to_change)
+
+#model_new.metabolites.get_by_id('MAM90012[r]')
 
 def create_dict_stochiometry_by_reaction(
         cobra_model: Model,
@@ -259,6 +267,9 @@ def create_dict_stochiometry_by_reaction(
         e.g. NADH[m] + 6 H+[m] + lauric acid[c] -> 4 7,12-Dimethylbenz[A]Anthracene-3,4-Diol-1,2-Epoxide[m]
     :return: dict: a dictionary specific to that reaction, with metabolite ids as keys and stochiometry as values
     """
+
+    #test
+    #formula  = 'pro-myostatin[g] + H2O[g] --> latent_complex_myostatin[g] + pro-domain_myostatin[g]'
 
     # split the formula on +, closing brackets and arrow
     # this is necessary because some metabolite names in the model contain brackets, spaces and/or arrows
@@ -333,9 +344,9 @@ def create_dict_stochiometry_by_reaction(
     return dict_stochiometry
 
 # test works
-# create_dict_stochiometry_by_reaction(model, "glucose[m] -> 2 3-dehyrdo[m] + 4-hydro[c] + 2 ATP[c] + 2 ADP[c] + H+[c]")
+#create_dict_stochiometry_by_reaction(model_new, "pre-pro-GDF-15_2[r] + H2O[r] --> pro-GDF-15[r] + signal_peptide_GDF-15[r]")
 
-GPR = 'ACSL1 or ACSL3 or ACSL4 or ACSL5 or ACSL6 or ACSBG1 or ACSBG2'
+#GPR = 'ACSL1 or ACSL3 or ACSL4 or ACSL5 or ACSL6 or ACSBG1 or ACSBG2'
 
 def find_ensemblid_from_gene_symbols(
         GPR: str
@@ -483,6 +494,7 @@ def get_lb_and_ub_from_formula_string(
 
 #(lb, ub) = get_lb_and_ub_from_formula_string('test --> test33 + ff')
 
+#get_lb_and_ub_from_formula_string('CCK-hydroxyglycine[c] --> glyoxalate[c] + CCK[c]')
 
 def add_reactions_to_model(
         cobra_model: Model,
@@ -498,7 +510,6 @@ def add_reactions_to_model(
     :param dataframe_reactions_to_change:
     :return:
     """
-
     # add metabolites to model
     cobra_model, log_metabolites = add_metabolites_to_model(cobra_model,dataframe_metabolites_to_change)
 
@@ -523,15 +534,17 @@ def add_reactions_to_model(
         cobra_model.add_reactions([individual_reaction])
 
         # add stochiometry to reaction
+
         dict_stochiometry = create_dict_stochiometry_by_reaction(cobra_model,formula)
         individual_reaction.add_metabolites(dict_stochiometry)
 
         # add GPRs to reaction
         GPR_gene_symbol = dataframe_reactions_to_change.loc[idx, 'after_reaction_GPR_readable']
-        print(GPR_gene_symbol)
         GPR_ensembl = find_ensemblid_from_gene_symbols(GPR_gene_symbol)
 
         individual_reaction.gene_reaction_rule = GPR_ensembl
+
+        print(f"the last reactions added was {individual_reaction.id}")
 
         # add the ENSEMB ids in the GPR_ensembl string to a list
         for match in re.finditer('([ENSG]\w+)', GPR_ensembl):
@@ -553,8 +566,8 @@ if __name__ == "__main__":
 
     main_data_folder = r"C:\Users\inapa\PycharmProjects\metabolic_modeling\model_modifications"
 
-    metabolites_location = os.path.join(main_data_folder, "inputs/metabolites_additions_v7.xlsx")
-    reactions_location = os.path.join(main_data_folder, "inputs/reactions_additions_v7.xlsx")
+    metabolites_location = os.path.join(main_data_folder, "inputs/metabolites_additions_v9.xlsx")
+    reactions_location = os.path.join(main_data_folder, "inputs/reactions_additions_v9.xlsx")
     model_location = os.path.join(main_data_folder, "inputs/model_v17_with_manual_mods.json")
 
     dataframe_metabolites_to_change = pd.read_excel(metabolites_location)
@@ -565,14 +578,40 @@ if __name__ == "__main__":
     output_model, output_log_genes, output_log_metabolites = add_reactions_to_model(cobra_model, dataframe_metabolites_to_change, dataframe_reactions_to_change)
 
     # save everything
-    save_json_model(output_model, os.path.join(main_data_folder, "output/output_model.json"))
-    output_log_genes.to_excel(os.path.join(main_data_folder, "output/logs/output_log_genes.xlsx"))
-    output_log_metabolites.to_excel(os.path.join(main_data_folder, "output/logs/output_log_metabolites.xlsx"))
+    save_json_model(output_model, os.path.join(main_data_folder, "output/output_model_v9.json"))
+    output_log_genes.to_excel(os.path.join(main_data_folder, "output/logs/output_log_genes_v9.xlsx"))
+    output_log_metabolites.to_excel(os.path.join(main_data_folder, "output/logs/output_log_metabolites_v9.xlsx"))
 
 #test
-test_output_model = load_json_model( r"C:\Users\inapa\PycharmProjects\metabolic_modeling\model_modifications\output\output_model.json")
+test_output_model = load_json_model( r"C:\Users\inapa\PycharmProjects\metabolic_modeling\model_modifications\output\output_model_v9.json")
 
-test_output_model.reactions.get_by_id('MAR04356').reaction # should be reversible
-
+test_output_model.reactions.get_by_id('MAR02036').reaction # should be reversible
+#
 test_output_model.reactions.get_by_id('MAR90024').reaction # should exist
 test_output_model.reactions.get_by_id('MAR90024').genes # should have 4 genes
+
+import useful_functions.change_formula_id_for_names
+
+for rxn_id in ['MAR02036', 'MAR02049', 'MAR02052', 'MAR90032', 'MAR90033']:
+    print(change_formula_id_for_names(test_output_model, test_output_model.reactions.get_by_id(rxn_id).reaction))
+
+#list_met_name_model = [met.name for met in test_output_model.metabolites]
+
+# #for met in list_met_names_task_1:
+#     if met in list_met_name_model:
+#         print(f"{met} is in the model")
+#     elif met not in list_met_name_model:
+#         print(f"{met} is not in the model")
+#
+# #for met in test_output_model.metabolites:
+#     if met.name in list_met_names_task_1:
+#         print(met.name)
+#         print(met.id)
+#
+#
+# for reaction in test_output_model.reactions:
+#     for met_name in list_met_names_task_1:
+#         if met_name in reaction.build_reaction_string(use_metabolite_names = True):
+#             print(f"{met_name} is in reaction {reaction.id} with formula {reaction.build_reaction_string(use_metabolite_names = True)}")
+#
+
