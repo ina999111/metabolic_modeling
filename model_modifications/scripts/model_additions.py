@@ -397,6 +397,23 @@ def find_ensemblid_from_gene_symbols(
 
         output_query = mg.query(gene_symbol, scopes='symbol', fields='ensembl.gene,genomic_pos', species='human')
 
+        # for SULTA1 a non coding RNA ensembl id is chosen, indicating a problem
+        # for now, I fixed it by using the correct ensembl id instead of the gene id in the reactions_additions_v9 file
+
+
+        #test
+#         test = mg.query(
+#     "SULT1A1",
+#     scopes="symbol",
+#     species="human",
+#     fields=["ensembl.gene", "ensembl.transcript", "ensembl.protein"]
+# )
+#
+#         test['hits'][0]
+#
+#         for hit in test['hits']:
+#             print(hit)
+
         # if no match is found
         if output_query['max_score'] == None:
             warning_message = f'no ENSEMBL id found for gene symbol {gene_symbol}'
@@ -438,7 +455,7 @@ def find_ensemblid_from_gene_symbols(
     return GPR
 
 #test
-#find_ensemblid_from_gene_symbols('DECR1 or ENSG00000242612')
+#find_ensemblid_from_gene_symbols('SULT1E1 or SULT1A1 or SULT1A3')
 #find_ensemblid_from_gene_symbols('DECR1 or DECR2')
 #test_gene_dict, test_GPR = find_ensemblid_from_gene_symbols('ENSG00000242612')
 #find_ensemblid_from_gene_symbols('ACSL1 or ACSL3 or ACSL4 or ACSL5 or ACSL6 or ACSBG1 or ACSBG2')
